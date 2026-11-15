@@ -1,0 +1,1963 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f7fb">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Vokabeln">
+<meta name="application-name" content="Vokabeln">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.5 system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Business-Vokabeltrainer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one centred column like a modern finance app; home = Tagesbilanz KPIs + lesson portfolio, session = one card at a time.
+   Deliberately single light theme (user asked for a bright look). */
+:root{
+  --bg:#f5f7fb; --surface:#ffffff; --surface-2:#eef1f6; --ink:#0f1b2d; --muted:#64718a; --line:#e3e8f0;
+  --accent:#0e9f6e; --accent-2:#0b7fd1; --accent-ink:#ffffff; --accent-soft:#e3f6ee; --blue:#2f6fe4;
+  --good:#0e9f6e; --good-soft:#e3f6ee; --warn:#e08a00; --warn-soft:#fff4e0; --bad:#e5484d; --bad-soft:#fdecec;
+  --mark:#d6f5e6;
+  --shadow:0 1px 2px rgba(15,27,45,.04), 0 8px 24px rgba(15,27,45,.06);
+  --shadow-lg:0 2px 4px rgba(15,27,45,.04), 0 18px 48px rgba(15,27,45,.10);
+  --f-word:"Manrope", "Segoe UI", system-ui, sans-serif;
+  --f-ui:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+  --r:18px;
+  color-scheme:light;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.5;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:20px 48px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{margin:0;text-wrap:balance}
+h1{font-family:var(--f-word);font-weight:800;font-size:1.9rem;letter-spacing:-.02em;line-height:1.1}
+.brand{display:flex;align-items:center;gap:12px}
+.brand svg{width:40px;height:40px;flex:none;border-radius:12px;box-shadow:0 6px 16px rgba(14,159,110,.28)}
+h2{font-size:1rem;font-weight:600}
+.eyebrow{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,label:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:10px 18px;font-weight:600;min-height:44px;box-shadow:0 1px 2px rgba(15,27,45,.05);transition:transform .12s,box-shadow .12s,border-color .12s,background .12s}
+.btn:hover{border-color:#cdd5e1;box-shadow:0 4px 12px rgba(15,27,45,.08);transform:translateY(-1px)}
+.btn:active{transform:translateY(0);box-shadow:0 1px 2px rgba(15,27,45,.05)}
+.btn.primary{background:linear-gradient(135deg,var(--accent),#12b886);color:var(--accent-ink);border-color:transparent;box-shadow:0 6px 16px rgba(14,159,110,.28)}
+.btn.primary:hover{box-shadow:0 10px 22px rgba(14,159,110,.34)}
+.btn.ghost{background:transparent;border-color:transparent;color:var(--muted);box-shadow:none;transform:none}
+.btn.ghost:hover{color:var(--ink);box-shadow:none;transform:none}
+.btn:disabled{opacity:.45;cursor:not-allowed;box-shadow:none;transform:none}
+
+header.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.sync{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted)}
+.sync i{width:8px;height:8px;border-radius:50%;background:var(--muted);display:inline-block}
+.sync[data-s="ok"] i{background:var(--good)} .sync[data-s="warn"] i{background:var(--warn)} .sync[data-s="local"] i{background:var(--warn)}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:24px;display:flex;flex-direction:column;gap:16px}
+.today{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stat{display:flex;flex-direction:column;gap:2px}
+.stat b{font-family:var(--f-word);font-size:2.2rem;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+#stDue{color:var(--bad)} #stNew{color:var(--blue)} #stKnown{color:var(--good)}
+.stat{padding:14px 16px;background:var(--bg);border-radius:14px}
+.stat span{font-size:.8rem;color:var(--muted)}
+.opts{display:flex;flex-direction:column;gap:12px}
+.opt{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.opt > .lab{width:92px;font-size:.85rem;color:var(--muted)}
+.seg{display:inline-flex;flex-wrap:wrap;gap:2px;padding:3px;border-radius:12px;background:var(--surface-2)}
+.seg button{border:0;background:transparent;padding:7px 13px;font-size:.88rem;min-height:36px;border-radius:9px;color:var(--muted);font-weight:500;transition:background .12s,color .12s}
+.seg button:hover{color:var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:0 1px 3px rgba(15,27,45,.12)}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+
+.chapter{display:flex;flex-direction:column;gap:2px}
+.chapter-h{display:flex;align-items:baseline;gap:10px;padding:4px 0 8px}
+.chapter-h h2{font-family:var(--f-word);font-size:1.3rem;font-weight:800}
+.secrow{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:14px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 2px rgba(15,27,45,.04);transition:box-shadow .15s}
+.secrow:hover{box-shadow:var(--shadow)}
+.secrow + .secrow{margin-top:6px}
+.secrow input{width:20px;height:20px;accent-color:var(--accent);margin:0}
+.secinfo{min-width:0;display:flex;flex-direction:column;gap:6px}
+.secinfo .name{font-weight:500}
+.secinfo .name .mono{color:var(--muted);font-size:.8rem;margin-right:6px}
+.bar{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--surface-2);gap:2px}
+.bar span{display:block;height:100%}
+.bar .k{background:var(--good)} .bar .l{background:var(--warn)}
+.counts{font-size:.76rem;color:var(--muted);font-family:var(--f-mono)}
+.legend{display:flex;gap:14px;font-size:.78rem;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+/* session */
+.sess-top{display:flex;align-items:center;gap:12px}
+.progress{flex:1;height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.progress span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:99px;transition:width .3s}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);padding:28px 24px;display:flex;flex-direction:column;gap:18px;min-height:300px}
+.card .meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.pill{font-size:.72rem;font-family:var(--f-mono);padding:2px 8px;border-radius:99px;background:var(--surface-2);color:var(--muted);letter-spacing:.03em}
+.pill.new{background:var(--accent-soft);color:var(--accent);font-weight:500}
+.prompt{font-family:var(--f-word);font-size:clamp(1.8rem,7vw,2.6rem);font-weight:800;letter-spacing:-.01em;line-height:1.2;overflow-wrap:anywhere}
+.prompt-wrap{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.hint{font-size:.9rem;color:var(--muted)}
+.ask{font-size:.85rem;color:var(--muted)}
+.answer{border-top:1px dashed var(--line);padding-top:16px;display:flex;flex-direction:column;gap:12px}
+.answer .solution{font-family:var(--f-word);font-size:1.5rem;font-weight:700;overflow-wrap:anywhere;color:var(--accent)}
+.ex{display:flex;flex-direction:column;gap:2px;padding:10px 14px;background:var(--bg);border-radius:12px}
+.ex .en{font-size:1.05rem;font-weight:500}
+.ex .de{font-size:.88rem;color:var(--muted)}
+mark{background:var(--mark);color:var(--ink);padding:1px 5px;border-radius:6px;font-weight:600}
+.cloze{font-size:1.25rem;line-height:1.6;font-weight:500}
+.blank{display:inline-block;border-bottom:2px solid var(--accent);min-width:4ch;color:transparent}
+form.typer{display:flex;gap:8px}
+form.typer input{flex:1;min-width:0;font:inherit;font-size:1.05rem;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);transition:border-color .12s,box-shadow .12s}
+form.typer input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft);background:var(--surface)}
+form.typer input:disabled{opacity:.8}
+.fb{border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.fb-h{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.stamp{font-size:.7rem;font-weight:600;letter-spacing:.08em;padding:3px 10px;border-radius:99px;background:var(--surface);flex:none;animation:pop .2s ease-out}
+.fb.correct .stamp{color:var(--good)} .fb.almost .stamp,.fb.also .stamp{color:var(--warn)} .fb.wrong .stamp{color:var(--bad)}
+@keyframes pop{from{transform:scale(.8);opacity:0}to{transform:scale(1);opacity:1}}
+.fb.correct{background:var(--good-soft)} .fb.correct b{color:var(--good)}
+.fb.almost,.fb.also{background:var(--warn-soft)} .fb.almost b,.fb.also b{color:var(--warn)}
+.fb.wrong{background:var(--bad-soft)} .fb.wrong b{color:var(--bad)}
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.grades button{display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 4px}
+.grades.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grades.two button{padding:14px 8px;font-size:1.02rem}
+.grades small{font-family:var(--f-mono);font-size:.7rem;color:var(--muted)}
+.grades .g1{background:var(--bad-soft);border-color:transparent;color:var(--bad)} .grades .g2{background:var(--warn-soft);border-color:transparent;color:#b86f00} .grades .g3{background:var(--good-soft);border-color:transparent;color:var(--good)} .grades .g4{background:#e6f1fd;border-color:transparent;color:var(--accent-2)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.speak{border:1px solid var(--line);background:transparent;border-radius:99px;width:34px;height:34px;display:inline-grid;place-items:center;flex:none}
+.speak svg{width:16px;height:16px;fill:currentColor}
+.kbd{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.btn.primary .kbd{color:rgba(255,255,255,.75);margin-left:4px}
+
+/* summary + list */
+.sumgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.wl{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
+.wl li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.wl li span:first-child{font-family:var(--f-word);font-weight:700}
+.entry{border-bottom:1px solid var(--line)}
+.entry > button{width:100%;text-align:left;background:none;border:0;padding:10px 4px;display:grid;grid-template-columns:auto 2.4rem minmax(0,1fr) minmax(0,1fr);gap:10px;align-items:baseline}
+.entry .dot{width:9px;height:9px;border-radius:50%;background:var(--surface-2);border:1px solid var(--line)}
+.entry .dot.l{background:var(--warn);border-color:var(--warn)} .entry .dot.k{background:var(--good);border-color:var(--good)}
+.entry .en{font-family:var(--f-word);font-weight:700;overflow-wrap:anywhere}
+.entry .de{color:var(--muted);overflow-wrap:anywhere}
+.entry .exs{padding:0 4px 12px 3.6rem;display:flex;flex-direction:column;gap:8px}
+.confirm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.88rem}
+footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
+
+/* final tests */
+.tests{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.ttile{text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:6px;box-shadow:0 1px 2px rgba(15,27,45,.04);transition:box-shadow .15s,transform .15s;min-width:0}
+.ttile:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
+.ttile .code{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.ttile b{font-family:var(--f-word);font-weight:700;line-height:1.3;font-size:.95rem}
+.ttile .res{font-size:.78rem;color:var(--muted);margin-top:auto}
+.ttile .res.done{color:var(--good);font-weight:600}
+.article{font-size:1.05rem;line-height:2.15;display:flex;flex-direction:column;gap:16px}
+.article p{margin:0}
+.gap{display:inline-flex;align-items:center;gap:3px;vertical-align:baseline;max-width:100%;flex-wrap:wrap}
+.gap input{font:inherit;font-size:.98rem;padding:1px 8px;border:1px solid #cfd7e3;border-radius:8px;background:var(--bg);color:var(--ink);max-width:100%;line-height:1.55;transition:border-color .12s,box-shadow .12s}
+.gap input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);background:var(--surface)}
+.gap input.tipped::placeholder{color:var(--accent-2);font-style:italic;opacity:1}
+.tipbtn{border:0;background:var(--surface-2);color:var(--muted);width:22px;height:22px;border-radius:99px;font-size:.75rem;font-weight:700;flex:none;line-height:1}
+.tipbtn:hover{background:#e3f0fc;color:var(--accent-2)}
+.gap.ok input{border-color:var(--good);background:var(--good-soft);color:var(--good);font-weight:600}
+.gap.almost input{border-color:var(--warn);background:var(--warn-soft)}
+.gap.bad input{border-color:var(--bad);background:var(--bad-soft);text-decoration:line-through;color:var(--muted)}
+.fix{font-weight:700;font-size:.92rem;line-height:1.4}
+.gap.almost .fix{color:#b86f00} .gap.bad .fix{color:var(--bad)}
+.tresult{display:flex;flex-direction:column;gap:6px;background:var(--bg);border-radius:16px;padding:14px 16px}
+.tresult .big{font-family:var(--f-word);font-weight:800;font-size:1.35rem}
+@media (max-width:620px){.tests{grid-template-columns:repeat(2,minmax(0,1fr))}.article{font-size:1rem}}
+
+/* gamification + Waldi */
+.dog-wrap{width:120px;flex:none}
+.dog-wrap svg{width:100%;height:auto;display:block;overflow:visible}
+.dog .tail{transform-box:fill-box;transform-origin:100% 100%;animation:wag 1.4s ease-in-out infinite}
+@keyframes wag{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(16deg)}}
+[data-mood="happy"] .dog .tail,[data-mood="cheer"] .dog .tail{animation-duration:.32s}
+[data-mood="sad"] .dog .tail{animation:none;transform:rotate(-60deg)}
+.dog .tongue{opacity:0;transition:opacity .2s}
+[data-mood="happy"] .dog .tongue,[data-mood="cheer"] .dog .tongue{opacity:1}
+.dog .head{transform-box:fill-box;transform-origin:15% 85%;transition:transform .35s}
+[data-mood="sad"] .dog .head{transform:rotate(12deg)}
+[data-mood="think"] .dog .head{transform:rotate(-7deg)}
+.dog .ear{transform-box:fill-box;transform-origin:60% 5%;transition:transform .35s}
+[data-mood="sad"] .dog .ear{transform:rotate(14deg)}
+[data-mood="happy"] .dog .ear,[data-mood="cheer"] .dog .ear{animation:flap .5s ease-in-out 2}
+@keyframes flap{50%{transform:rotate(-18deg)}}
+[data-mood="cheer"] svg{animation:hop .45s ease-out 3}
+@keyframes hop{0%,100%{transform:translateY(0)}40%{transform:translateY(-14px)}}
+.bubble{position:relative;background:var(--surface-2);border-radius:16px;padding:10px 14px;font-size:.92rem;font-weight:500;line-height:1.4;min-width:0}
+.bubble::before{content:"";position:absolute;left:-7px;top:50%;margin-top:-8px;border:8px solid transparent;border-right-color:var(--surface-2);border-left:0}
+.bubble b{color:var(--accent)}
+.bubble.pop{animation:pop .25s ease-out}
+.player{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.player .bubble{flex:1}
+@media (min-width:621px){.chips{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.player-top{display:flex;align-items:center;gap:14px;min-width:0}
+.player .dog-wrap{width:132px}
+.lvl-title{font-family:var(--f-word);font-weight:800;font-size:1.4rem;line-height:1.2}
+.xpbar{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin-top:10px}
+.xpbar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:99px;transition:width .6s}
+.chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:14px}
+.chip{display:flex;align-items:center;gap:10px;background:var(--bg);border-radius:12px;padding:10px 12px;min-width:0}
+.chip svg{width:22px;height:22px;flex:none}
+.chip b{font-family:var(--f-word);font-weight:800;font-size:1.05rem;display:block;line-height:1.15}
+.chip small{color:var(--muted);font-size:.74rem}
+.minibar{height:4px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin-top:4px}
+.minibar span{display:block;height:100%;background:var(--accent)}
+.buddy{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px 16px 8px 10px;box-shadow:0 1px 2px rgba(15,27,45,.04)}
+.buddy .dog-wrap{width:80px}
+.buddy .bubble{flex:1}
+.score{position:relative;display:flex;flex-direction:column;align-items:flex-end;flex:none;min-width:64px}
+.score b{font-family:var(--f-word);font-size:1.5rem;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.score small{font-size:.7rem;color:var(--muted)}
+.combo{font-size:.72rem;font-weight:700;color:#fff;background:linear-gradient(135deg,#ff9f1c,#ff6b3d);padding:2px 8px;border-radius:99px;margin-bottom:4px}
+.float{position:absolute;right:0;top:-14px;font-family:var(--f-word);font-weight:800;color:var(--accent);opacity:0;pointer-events:none}
+.float.go{animation:floatup .9s ease-out}
+@keyframes floatup{0%{opacity:0;transform:translateY(8px)}20%{opacity:1}100%{opacity:0;transform:translateY(-24px)}}
+.sum-game{display:flex;gap:16px;align-items:center;background:var(--bg);border-radius:16px;padding:12px 16px 12px 10px}
+.sum-game .dog-wrap{width:110px}
+.sum-game > div:last-child{display:flex;flex-direction:column;gap:8px;min-width:0;flex:1}
+.xpgain{font-family:var(--f-word);font-weight:800;font-size:1.35rem;color:var(--accent)}
+.badge-hs{background:linear-gradient(135deg,#ffd166,#ff9f1c);color:#3a2400;font-weight:700;font-size:.78rem;padding:4px 10px;border-radius:99px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);display:flex;align-items:center;gap:12px;background:var(--ink);color:#fff;border-radius:20px;padding:10px 20px 10px 10px;box-shadow:var(--shadow-lg);z-index:20;width:max-content;max-width:calc(100% - 32px);animation:toastin .35s ease-out}
+.toast .dog-wrap{width:72px}
+.toast .eyebrow{color:#8fe3c0}
+.toast b{font-family:var(--f-word);font-size:1.1rem;display:block}
+.toast span{font-size:.85rem;color:#c9d3e0}
+@keyframes toastin{from{opacity:0;transform:translate(-50%,16px)}to{opacity:1;transform:translate(-50%,0)}}
+@media (max-width:620px){
+  .player{grid-template-columns:1fr;gap:16px}
+  .player .dog-wrap{width:104px}
+  .buddy .dog-wrap{width:58px}
+  .buddy .bubble{font-size:.82rem;padding:8px 10px}
+  .sum-game .dog-wrap{width:84px}
+}
+@media (max-width:520px){
+  .opt > .lab{width:100%}
+  .card{padding:22px 16px}
+  .grades{grid-template-columns:repeat(2,1fr)}
+  .entry > button{grid-template-columns:auto minmax(0,1fr);}
+  .entry .num{display:none}
+  .entry .de{grid-column:2}
+  .entry .exs{padding-left:1.4rem}
+  .today,.sumgrid{gap:8px}
+  .stat b{font-size:1.3rem}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Business English · Englisch ↔ Deutsch</div>
+      <h1 class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12b886"/><stop offset="1" stop-color="#0b7fd1"/></linearGradient></defs><rect width="40" height="40" rx="12" fill="url(#lg)"/><rect x="10" y="22" width="4.5" height="9" rx="2.25" fill="#fff" fill-opacity=".65"/><rect x="17.75" y="17" width="4.5" height="14" rx="2.25" fill="#fff" fill-opacity=".8"/><rect x="25.5" y="11" width="4.5" height="20" rx="2.25" fill="#fff"/></svg>Business-Vokabeltrainer</h1>
+    </div>
+    <div class="sync" id="sync" data-s="pending"><i></i><span>Lade Fortschritt…</span></div>
+  </header>
+
+  <!-- HOME -->
+  <main id="home" class="wrap" style="gap:20px">
+    <section class="panel player" aria-label="Dein Level">
+      <div class="player-top">
+        <div class="dog-wrap" id="dogH" data-mood="idle"></div>
+        <div class="bubble" id="bubbleH"></div>
+      </div>
+      <div>
+        <div class="row" style="justify-content:space-between;align-items:flex-end">
+          <div><span class="eyebrow">Level <span id="lvlNo">1</span></span><div class="lvl-title" id="lvlTitle">Praktikant/in</div></div>
+          <span class="mono muted" style="font-size:.8rem" id="lvlXP"></span>
+        </div>
+        <div class="xpbar"><span id="xpFill" style="width:0"></span></div>
+        <div class="chips">
+          <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#ff7a1a" d="M12 2c.8 3.6 5.5 5.8 5.5 11a5.5 5.5 0 0 1-11 0c0-2.3 1.1-4 2.3-5 .3 1.6 1 2.7 2.1 3.2-.2-3.3.2-6.4 1.1-9.2z"/><path fill="#ffc94d" d="M12 21a2.8 2.8 0 0 1-2.8-2.8c0-1.6 1.3-2.6 2.1-3.6.4 1.2 1.2 1.6 1.9 1.9.9.4 1.6 1.1 1.6 2A2.8 2.8 0 0 1 12 21z"/></svg><div><b id="chStreak">0 Tage</b><small>Lern-Serie</small></div></div>
+          <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="#0e9f6e" stroke-width="2.2"/><circle cx="12" cy="12" r="5" fill="none" stroke="#0e9f6e" stroke-width="2.2"/><circle cx="12" cy="12" r="1.8" fill="#0e9f6e"/></svg><div style="flex:1;min-width:0"><b id="chDaily">0 / 100 XP</b><small>Tagesziel</small><div class="minibar"><span id="chDailyBar" style="width:0"></span></div></div></div>
+          <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#f5b400" d="M7 3h10v2h3v2.5A4.5 4.5 0 0 1 16 12a5 5 0 0 1-3 2.8V17h3v3H8v-3h3v-2.2A5 5 0 0 1 8 12a4.5 4.5 0 0 1-4-4.5V5h3V3zm-1 4v.5c0 1 .5 1.9 1.3 2.3A6 6 0 0 1 7 8V7H6zm11 0v1c0 .6-.1 1.2-.3 1.8.8-.4 1.3-1.3 1.3-2.3V7h-1z"/></svg><div><b id="chHS">0</b><small>Highscore</small></div></div>
+          <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#2f6fe4" d="M13.5 2 4 14h6.5L9.5 22 20 9.5h-6.6z"/></svg><div><b id="chCombo">0</b><small>Beste Combo</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-today">
+      <div class="row" style="justify-content:space-between">
+        <h2 id="h-today" style="font-family:var(--f-word);font-size:1.3rem;font-weight:800">Tagesbilanz</h2>
+        <span class="muted" style="font-size:.82rem" id="scopeLabel"></span>
+      </div>
+      <div class="today">
+        <div class="stat"><b id="stDue">0</b><span>fällig zur Wiederholung</span></div>
+        <div class="stat"><b id="stNew">0</b><span>neu im Bestand</span></div>
+        <div class="stat"><b id="stKnown">0</b><span>sicher verbucht</span></div>
+      </div>
+      <div class="opts">
+        <div class="opt"><span class="lab">Übung</span>
+          <div class="seg" data-key="mode">
+            <button data-v="mix">Gemischt</button><button data-v="flash">Karteikarten</button><button data-v="type">Eintippen</button><button data-v="cloze">Lückentext</button>
+          </div></div>
+        <div class="opt"><span class="lab">Richtung</span>
+          <div class="seg" data-key="dir">
+            <button data-v="mix">Gemischt</button><button data-v="en-de">EN → DE</button><button data-v="de-en">DE → EN</button>
+          </div></div>
+        <div class="opt"><span class="lab">Rundengröße</span>
+          <div class="seg" data-key="size">
+            <button data-v="10">10</button><button data-v="20">20</button><button data-v="40">40</button>
+          </div></div>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="startBtn">Runde starten</button>
+        <button class="btn" id="freeBtn">Freies Üben</button>
+      </div>
+      <p class="muted" style="margin:0;font-size:.82rem" id="startNote"></p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-tests">
+      <div class="row" style="justify-content:space-between;align-items:baseline">
+        <h2 id="h-tests" style="font-family:var(--f-word);font-size:1.3rem;font-weight:800">Abschlusstests</h2>
+        <span class="muted" style="font-size:.82rem">Ein großer Lückentext pro Lektion · ohne Wortkasten</span>
+      </div>
+      <div class="tests" id="testTiles"></div>
+    </section>
+
+    <section aria-labelledby="h-lessons" style="display:flex;flex-direction:column;gap:14px">
+      <div class="row" style="justify-content:space-between">
+        <h2 id="h-lessons" style="font-family:var(--f-word);font-size:1.3rem;font-weight:800">Dein Lektionen-Portfolio</h2>
+        <div class="legend"><span><i style="background:var(--good)"></i>sicher</span><span><i style="background:var(--warn)"></i>am Lernen</span><span><i style="background:var(--surface-2);border:1px solid var(--line)"></i>neu</span></div>
+      </div>
+      <div id="lessons" style="display:flex;flex-direction:column;gap:18px"></div>
+    </section>
+
+    <footer>
+      <span>Häkchen = Lektion wird in Runden abgefragt.</span>
+      <span id="backupArea" class="row" hidden><button class="btn ghost" id="bkSave" style="min-height:0;padding:4px 0">Sicherung herunterladen</button><button class="btn ghost" id="bkLoad" style="min-height:0;padding:4px 0">Sicherung laden</button><input type="file" id="bkFile" accept=".json,application/json" hidden><span id="bkMsg"></span></span>
+      <span id="resetArea"><button class="btn ghost" id="resetBtn" style="min-height:0;padding:4px 0">Fortschritt zurücksetzen</button></span>
+    </footer>
+  </main>
+
+  <!-- SESSION -->
+  <main id="session" hidden>
+    <div class="wrap" style="gap:14px">
+      <div class="sess-top">
+        <button class="btn ghost" id="quitBtn" style="padding:6px 0;min-height:0">← Beenden</button>
+        <div class="progress"><span id="prog"></span></div>
+        <span class="mono muted" id="progTxt" style="font-size:.8rem"></span>
+      </div>
+      <div class="buddy">
+        <div class="dog-wrap" id="dogS" data-mood="idle"></div>
+        <div class="bubble" id="bubbleS"></div>
+        <div class="score"><span class="combo" id="combo" hidden></span><b id="pts">0</b><small>Punkte</small><span class="float" id="float"></span></div>
+      </div>
+      <div id="cardHost"></div>
+    </div>
+  </main>
+
+  <!-- SUMMARY -->
+  <main id="summary" hidden>
+    <section class="panel">
+      <div class="eyebrow">Rundenbericht</div>
+      <h2 style="font-family:var(--f-word);font-size:1.6rem;font-weight:800" id="sumTitle"></h2>
+      <div class="sum-game">
+        <div class="dog-wrap" id="dogSum" data-mood="cheer"></div>
+        <div>
+          <div class="bubble" id="bubbleSum"></div>
+          <div class="row"><span class="xpgain" id="sumXP">+0 XP</span><span class="badge-hs" id="sumHS" hidden>Neuer Highscore!</span></div>
+          <div class="muted" style="font-size:.85rem" id="sumLvl"></div>
+        </div>
+      </div>
+      <div class="sumgrid">
+        <div class="stat"><b id="sumC" style="color:var(--good)">0</b><span>auf Anhieb richtig</span></div>
+        <div class="stat"><b id="sumA" style="color:var(--warn)">0</b><span>fast richtig</span></div>
+        <div class="stat"><b id="sumW" style="color:var(--bad)">0</b><span>falsch</span></div>
+      </div>
+      <div id="sumListWrap"><h2 style="margin-bottom:6px">Nochmal anschauen</h2><ul class="wl" id="sumList"></ul></div>
+      <div class="actions">
+        <button class="btn primary" id="againBtn">Nächste Runde</button>
+        <button class="btn" id="homeBtn">Zur Übersicht</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FINAL TEST -->
+  <main id="test" hidden>
+    <div class="wrap" style="gap:14px">
+      <button class="btn ghost" id="testBack" style="align-self:flex-start;padding:4px 0;min-height:0">← Zur Übersicht</button>
+      <div class="buddy">
+        <div class="dog-wrap" id="dogT" data-mood="think"></div>
+        <div class="bubble" id="bubbleT"></div>
+        <div class="score"><b id="tFilled">0</b><small id="tFilledOf">Lücken gefüllt</small></div>
+      </div>
+      <section class="panel">
+        <div><div class="eyebrow" id="testEyebrow"></div><h2 style="font-family:var(--f-word);font-size:1.6rem;font-weight:800;line-height:1.25" id="testTitle"></h2></div>
+        <p class="muted" style="margin:0;font-size:.88rem">Setze die passenden Vokabeln aus der Lektion ein und achte auf die richtige Form (z. B. Vergangenheit oder Plural). Der Knopf „?“ zeigt die deutsche Bedeutung, gibt dafür aber weniger Punkte. Mit Enter springst du zur nächsten Lücke.</p>
+        <div class="article" id="testBody"></div>
+        <div class="tresult" id="testResult" hidden></div>
+        <div class="actions" id="testActions"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- LIST -->
+  <main id="list" hidden>
+    <section class="panel">
+      <button class="btn ghost" id="listBack" style="align-self:flex-start;padding:4px 0;min-height:0">← Zur Übersicht</button>
+      <div><div class="eyebrow" id="listEyebrow"></div><h2 style="font-family:var(--f-word);font-size:1.4rem" id="listTitle"></h2></div>
+      <p class="muted" style="margin:0;font-size:.85rem">Tippe auf ein Wort, um die Beispielsätze zu sehen.</p>
+      <div id="listBody"></div>
+    </section>
+  </main>
+</div>
+
+<div class="toast" id="toast" hidden role="status"><div class="dog-wrap" data-mood="cheer"></div><div><div class="eyebrow">Beförderung!</div><b id="toastTitle"></b><span id="toastSub"></span></div></div>
+
+<script type="text/plain" id="vocab">
+@L 01 | Economics
+@S A | Talking economics
+1 automotive | Automobilbranche, Fahrzeugbau
++ The [[automotive]] sector is facing high costs for the switch to electric cars. || Die Automobilbranche steht vor hohen Kosten für die Umstellung auf Elektroautos.
++ Many suppliers depend heavily on [[automotive]] manufacturers. || Viele Zulieferer sind stark von Automobilherstellern abhängig.
+2 budget deficit | Haushaltsdefizit
++ The government plans to cut spending to reduce the [[budget deficit]]. || Die Regierung plant Ausgabenkürzungen, um das Haushaltsdefizit zu verringern.
++ A large [[budget deficit]] can force a country to borrow more money. || Ein hohes Haushaltsdefizit kann ein Land zwingen, mehr Geld zu leihen.
+3 business 1 | Unternehmen, Geschäft | en: Firma | de: Firma
++ She started her own [[business]] after finishing university. || Sie gründete nach dem Studium ihr eigenes Unternehmen.
++ The family [[business]] has been running for three generations. || Das Familienunternehmen besteht seit drei Generationen.
+4 business 2 | Geschäftstätigkeit, Geschäftsleben | en: Tätigkeit | de: Tätigkeit
++ We do a lot of [[business]] with companies in Asia. || Wir machen viele Geschäfte mit Unternehmen in Asien.
++ [[Business]] has been slow since the start of the recession. || Seit Beginn der Rezession laufen die Geschäfte schlecht.
+5 construction | Bauwesen, Bau
++ Rising interest rates have hit the [[construction]] industry hard. || Steigende Zinsen haben die Baubranche schwer getroffen.
++ [[Construction]] of the new factory will begin next spring. || Der Bau der neuen Fabrik beginnt im nächsten Frühjahr.
+6 cost of living | Lebenshaltungskosten
++ The [[cost of living]] in London is much higher than in most other UK cities. || Die Lebenshaltungskosten in London sind viel höher als in den meisten anderen britischen Städten.
++ Unions are demanding higher wages to keep up with the rising [[cost of living]]. || Gewerkschaften fordern höhere Löhne, um mit den steigenden Lebenshaltungskosten Schritt zu halten.
+7 CPI – consumer price index | Verbraucherpreisindex
++ The [[CPI]] rose by 2.4 percent compared with the previous year. || Der Verbraucherpreisindex stieg im Vergleich zum Vorjahr um 2,4 Prozent.
++ Economists use the [[consumer price index]] to measure inflation. || Ökonomen nutzen den Verbraucherpreisindex, um die Inflation zu messen.
+8 disposable income | verfügbares Einkommen
++ Lower taxes leave households with more [[disposable income]]. || Niedrigere Steuern lassen den Haushalten mehr verfügbares Einkommen.
++ Young people often spend a large part of their [[disposable income]] on leisure. || Junge Menschen geben oft einen großen Teil ihres verfügbaren Einkommens für Freizeit aus.
+9 economic | wirtschaftlich, Wirtschafts- | en: relating to the economy | de: die Wirtschaft betreffend
++ The country is going through a period of strong [[economic]] growth. || Das Land erlebt eine Phase starken Wirtschaftswachstums.
++ The [[economic]] situation has improved since last year. || Die wirtschaftliche Lage hat sich seit letztem Jahr verbessert.
+10 economical | sparsam, wirtschaftlich (günstig) | en: saving money | de: sparsam, günstig
++ This car is very [[economical]] because it uses little fuel. || Dieses Auto ist sehr sparsam, weil es wenig Kraftstoff verbraucht.
++ Buying in bulk is the most [[economical]] option for large companies. || Großeinkauf ist für große Unternehmen die wirtschaftlichste Option.
+11 economics | Wirtschaftswissenschaft, Volkswirtschaftslehre
++ He is studying [[economics]] at the University of Mannheim. || Er studiert Volkswirtschaftslehre an der Universität Mannheim.
++ Basic [[economics]] tells us that prices rise when demand exceeds supply. || Die Grundlagen der Wirtschaftswissenschaft lehren uns, dass Preise steigen, wenn die Nachfrage das Angebot übersteigt.
+12 economies of scale | Skaleneffekte
++ Large retailers benefit from [[economies of scale]] when buying goods. || Große Einzelhändler profitieren beim Wareneinkauf von Skaleneffekten.
++ The merger will allow both firms to achieve [[economies of scale]]. || Die Fusion wird beiden Firmen ermöglichen, Skaleneffekte zu erzielen.
+13 economist | Wirtschaftswissenschaftler/in, Ökonom/in
++ Most [[economists]] expect interest rates to fall next year. || Die meisten Ökonomen erwarten, dass die Zinsen im nächsten Jahr sinken.
++ The bank's chief [[economist]] warned of a possible recession. || Der Chefökonom der Bank warnte vor einer möglichen Rezession.
+14 economy 1 | Wirtschaft, Volkswirtschaft | en: of a country | de: eines Landes
++ The German [[economy]] relies heavily on exports. || Die deutsche Wirtschaft ist stark von Exporten abhängig.
++ Tourism is an important part of the local [[economy]]. || Der Tourismus ist ein wichtiger Teil der lokalen Wirtschaft.
+15 economy 2 | Sparsamkeit, Einsparung | en: saving | de: das Sparen
++ For reasons of [[economy]], the company stopped printing paper catalogues. || Aus Gründen der Sparsamkeit hat das Unternehmen den Druck von Papierkatalogen eingestellt.
++ Switching to LED lighting was a sensible [[economy]]. || Die Umstellung auf LED-Beleuchtung war eine sinnvolle Einsparung.
+16 economy class | Economyklasse
++ Staff are only allowed to fly [[economy class]] on short trips. || Mitarbeiter dürfen auf Kurzreisen nur in der Economyklasse fliegen.
++ The airline has reduced legroom in [[economy class]]. || Die Fluggesellschaft hat die Beinfreiheit in der Economyklasse verringert.
+17 exchange rate | Wechselkurs
++ A weak [[exchange rate]] makes exports cheaper for foreign buyers. || Ein schwacher Wechselkurs macht Exporte für ausländische Käufer billiger.
++ The [[exchange rate]] between the euro and the dollar changes every day. || Der Wechselkurs zwischen Euro und Dollar ändert sich täglich.
+18 false economy | falsche Sparsamkeit
++ Buying cheap machines that break quickly is a [[false economy]]. || Billige Maschinen zu kaufen, die schnell kaputtgehen, ist falsche Sparsamkeit.
++ Cutting the training budget may turn out to be a [[false economy]]. || Das Schulungsbudget zu kürzen, könnte sich als falsche Sparsamkeit erweisen.
+19 GDP – gross domestic product | BIP – Bruttoinlandsprodukt
++ The country's [[GDP]] grew by 1.5 percent last year. || Das BIP des Landes wuchs im letzten Jahr um 1,5 Prozent.
++ [[Gross domestic product]] measures the total value of goods and services produced in a country. || Das Bruttoinlandsprodukt misst den Gesamtwert der in einem Land produzierten Waren und Dienstleistungen.
+20 industry 1 | Industrie | en: manufacturing | de: Produktion
++ Heavy [[industry]] used to dominate the Ruhr area. || Die Schwerindustrie prägte früher das Ruhrgebiet.
++ The government wants to attract more [[industry]] to the region. || Die Regierung möchte mehr Industrie in die Region holen.
+21 industry 2 | Branche, Wirtschaftszweig | en: sector | de: Sektor
++ She has worked in the fashion [[industry]] for ten years. || Sie arbeitet seit zehn Jahren in der Modebranche.
++ The tourism [[industry]] suffered badly during the pandemic. || Die Tourismusbranche litt stark während der Pandemie.
+22 inflation rate | Inflationsrate
++ The central bank aims to keep the [[inflation rate]] at around two percent. || Die Zentralbank strebt eine Inflationsrate von etwa zwei Prozent an.
++ A high [[inflation rate]] reduces people's purchasing power. || Eine hohe Inflationsrate verringert die Kaufkraft der Menschen.
+23 infrastructure | Infrastruktur
++ Poor [[infrastructure]] makes it difficult to transport goods quickly. || Eine schlechte Infrastruktur erschwert den schnellen Warentransport.
++ The government will invest billions in digital [[infrastructure]]. || Die Regierung wird Milliarden in die digitale Infrastruktur investieren.
+24 mining | Bergbau
++ [[Mining]] is the main source of income in many parts of Australia. || Der Bergbau ist in vielen Teilen Australiens die Haupteinnahmequelle.
++ Coal [[mining]] in Germany officially ended in 2018. || Der Steinkohlebergbau in Deutschland endete offiziell 2018.
+25 real estate | Immobilien
++ Many investors put their money into [[real estate]] when interest rates are low. || Viele Anleger investieren ihr Geld in Immobilien, wenn die Zinsen niedrig sind.
++ He works as an agent for a large [[real estate]] company. || Er arbeitet als Makler für ein großes Immobilienunternehmen.
+26 surplus | Überschuss
++ Germany has had a large trade [[surplus]] for many years. || Deutschland hat seit vielen Jahren einen großen Handelsüberschuss.
++ The company sold its [[surplus]] stock at a discount. || Das Unternehmen verkaufte seinen überschüssigen Bestand mit Rabatt.
+27 taxation | Besteuerung
++ High [[taxation]] can discourage companies from investing. || Eine hohe Besteuerung kann Unternehmen vom Investieren abhalten.
++ The new government promised fairer [[taxation]] of large corporations. || Die neue Regierung versprach eine gerechtere Besteuerung großer Konzerne.
+28 to economize on | sparen an, einsparen bei
++ Many families are trying to [[economize on]] energy this winter. || Viele Familien versuchen, in diesem Winter an Energie zu sparen.
++ The firm [[economized on]] travel costs by holding meetings online. || Die Firma sparte bei den Reisekosten, indem sie Besprechungen online abhielt.
+29 unemployment rate | Arbeitslosenquote
++ The [[unemployment rate]] fell to its lowest level in ten years. || Die Arbeitslosenquote sank auf den niedrigsten Stand seit zehn Jahren.
++ A rising [[unemployment rate]] is often a sign of recession. || Eine steigende Arbeitslosenquote ist oft ein Zeichen für eine Rezession.
+30 utilities | Versorgungsleistungen / -unternehmen (Strom, Wasser, Gas) | acc: Versorgungsleistungen; Versorgungsunternehmen; Versorger
++ The rent includes [[utilities]] such as water and electricity. || Die Miete beinhaltet Versorgungsleistungen wie Wasser und Strom.
++ Shares in [[utilities]] are considered a safe investment. || Aktien von Versorgungsunternehmen gelten als sichere Geldanlage.
+@S B | The Business Cycle
+31 anxious | ängstlich, besorgt
++ Investors are [[anxious]] about the rising cost of energy. || Anleger sind besorgt über die steigenden Energiekosten.
++ Many employees feel [[anxious]] about possible job cuts. || Viele Mitarbeiter sind wegen möglicher Stellenkürzungen besorgt.
+32 bankruptcy | Insolvenz, Bankrott
++ The airline filed for [[bankruptcy]] after months of losses. || Die Fluggesellschaft meldete nach monatelangen Verlusten Insolvenz an.
++ High debts drove the company into [[bankruptcy]]. || Hohe Schulden trieben das Unternehmen in den Bankrott.
+33 bloated | aufgebläht | de: Adjektiv
++ The new CEO promised to cut the [[bloated]] administration. || Der neue CEO versprach, die aufgeblähte Verwaltung zu verkleinern.
++ Years of easy credit left the company with a [[bloated]] cost structure. || Jahre mit billigen Krediten hinterließen dem Unternehmen eine aufgeblähte Kostenstruktur.
+34 boom and bust | Aufschwung und Absturz
++ The housing market has gone through several cycles of [[boom and bust]]. || Der Wohnungsmarkt hat mehrere Zyklen von Aufschwung und Absturz durchlaufen.
++ Governments try to avoid the extremes of [[boom and bust]]. || Regierungen versuchen, die Extreme von Aufschwung und Absturz zu vermeiden.
+35 carbon footprint | CO2-Fußabdruck
++ The company wants to halve its [[carbon footprint]] by 2030. || Das Unternehmen will seinen CO2-Fußabdruck bis 2030 halbieren.
++ Flying has a much larger [[carbon footprint]] than travelling by train. || Fliegen hat einen viel größeren CO2-Fußabdruck als Bahnfahren.
+36 contraction | Schrumpfung, Rückgang
++ The economy experienced a sharp [[contraction]] in the second quarter. || Die Wirtschaft erlebte im zweiten Quartal eine starke Schrumpfung.
++ A [[contraction]] in demand forced the factory to cut production. || Ein Rückgang der Nachfrage zwang die Fabrik, die Produktion zu drosseln.
+37 credit crunch | Kreditklemme
++ During the [[credit crunch]], banks stopped lending to small businesses. || Während der Kreditklemme vergaben Banken keine Kredite mehr an kleine Unternehmen.
++ The [[credit crunch]] of 2008 led to a global recession. || Die Kreditklemme von 2008 führte zu einer weltweiten Rezession.
+38 currency | Währung
++ The euro is the official [[currency]] of twenty EU countries. || Der Euro ist die offizielle Währung von zwanzig EU-Ländern.
++ Tourists can exchange foreign [[currency]] at the airport. || Touristen können am Flughafen Fremdwährung umtauschen.
+39 debt | Schulden
++ The company is trying to reduce its [[debt]] by selling assets. || Das Unternehmen versucht, seine Schulden durch den Verkauf von Vermögenswerten zu verringern.
++ Many students finish university with high levels of [[debt]]. || Viele Studierende beenden ihr Studium mit hohen Schulden.
+40 doom and gloom | Untergangsstimmung, Schwarzmalerei
++ Despite all the [[doom and gloom]] in the media, sales are rising. || Trotz aller Schwarzmalerei in den Medien steigen die Verkäufe.
++ The mood at the conference was not all [[doom and gloom]]. || Die Stimmung auf der Konferenz war nicht nur von Untergangsstimmung geprägt.
+41 inevitable | unvermeidlich
++ Job losses seem [[inevitable]] after the merger. || Stellenverluste scheinen nach der Fusion unvermeidlich.
++ Price increases are [[inevitable]] when raw material costs rise. || Preiserhöhungen sind unvermeidlich, wenn die Rohstoffkosten steigen.
+42 jewelry | Schmuck
++ Sales of luxury [[jewelry]] usually rise before Christmas. || Der Verkauf von Luxusschmuck steigt meist vor Weihnachten.
++ In hard times, some people sell their [[jewelry]] to pay their bills. || In schweren Zeiten verkaufen manche Menschen ihren Schmuck, um ihre Rechnungen zu bezahlen.
+43 knock-on effects | Folgeeffekte, Kettenreaktion
++ The strike had [[knock-on effects]] on the whole supply chain. || Der Streik hatte Folgeeffekte auf die gesamte Lieferkette.
++ Higher energy prices have [[knock-on effects]] for almost every industry. || Höhere Energiepreise haben Folgeeffekte für fast jede Branche.
+44 lean | schlank, mager | de: Adjektiv
++ After the restructuring, the company is much [[leaner]]. || Nach der Umstrukturierung ist das Unternehmen deutlich schlanker.
++ The firm introduced [[lean]] production to reduce waste. || Die Firma führte schlanke Produktion ein, um Verschwendung zu reduzieren.
+45 lean and mean | schlank und schlagkräftig
++ The new management wants a [[lean and mean]] organisation. || Das neue Management will eine schlanke und schlagkräftige Organisation.
++ Start-ups are often [[lean and mean]] compared with large corporations. || Start-ups sind im Vergleich zu Großkonzernen oft schlank und schlagkräftig.
+46 mortgage | Hypothek
++ They took out a [[mortgage]] to buy their first house. || Sie nahmen eine Hypothek auf, um ihr erstes Haus zu kaufen.
++ Rising interest rates have made [[mortgage]] payments more expensive. || Steigende Zinsen haben Hypothekenzahlungen teurer gemacht.
+47 pawnbroker | Pfandleiher
++ He took his watch to a [[pawnbroker]] to get some quick cash. || Er brachte seine Uhr zu einem Pfandleiher, um schnell an Bargeld zu kommen.
++ Business at [[pawnbrokers]] often grows during a recession. || Das Geschäft bei Pfandleihern wächst in einer Rezession oft.
+48 peaks and troughs | Höhen und Tiefen
++ Every economy goes through [[peaks and troughs]]. || Jede Volkswirtschaft durchläuft Höhen und Tiefen.
++ The chart shows the [[peaks and troughs]] of sales over the last decade. || Das Diagramm zeigt die Höhen und Tiefen der Verkäufe im letzten Jahrzehnt.
+49 respectability | Ansehen, Seriosität
++ The bank worked hard to regain its [[respectability]] after the scandal. || Die Bank arbeitete hart daran, nach dem Skandal ihr Ansehen zurückzugewinnen.
++ A stock market listing gave the start-up a new level of [[respectability]]. || Der Börsengang verlieh dem Start-up ein neues Maß an Seriosität.
+50 restriction of credit | Kreditbeschränkung
++ The [[restriction of credit]] made it hard for firms to finance new projects. || Die Kreditbeschränkung erschwerte es Firmen, neue Projekte zu finanzieren.
++ A sudden [[restriction of credit]] can slow down the whole economy. || Eine plötzliche Kreditbeschränkung kann die gesamte Wirtschaft bremsen.
+51 successive | aufeinanderfolgend
++ Profits have fallen for three [[successive]] years. || Die Gewinne sind drei Jahre in Folge gesunken.
++ [[Successive]] governments have failed to solve the housing crisis. || Aufeinanderfolgende Regierungen haben es nicht geschafft, die Wohnungskrise zu lösen.
+52 sustainability | Nachhaltigkeit | de: Nomen
++ Customers increasingly expect companies to focus on [[sustainability]]. || Kunden erwarten zunehmend, dass Unternehmen auf Nachhaltigkeit setzen.
++ The report examines the long-term [[sustainability]] of the pension system. || Der Bericht untersucht die langfristige Nachhaltigkeit des Rentensystems.
+53 sustained | anhaltend, nachhaltig | de: Adjektiv
++ The economy has enjoyed a [[sustained]] period of growth. || Die Wirtschaft erlebte eine anhaltende Wachstumsphase.
++ [[Sustained]] investment in training is key to success. || Nachhaltige Investitionen in Weiterbildung sind der Schlüssel zum Erfolg.
+54 to bloat | aufblähen | de: Verb
++ Too many management layers [[bloat]] the organisation. || Zu viele Managementebenen blähen die Organisation auf.
++ Unnecessary spending has [[bloated]] the budget. || Unnötige Ausgaben haben das Budget aufgebläht.
+55 to curb | eindämmen, zügeln
++ The central bank raised interest rates to [[curb]] inflation. || Die Zentralbank erhöhte die Zinsen, um die Inflation einzudämmen.
++ The new rules aim to [[curb]] excessive bonuses for managers. || Die neuen Regeln sollen überhöhte Boni für Manager eindämmen.
+56 to flourish | gedeihen, florieren
++ Small businesses [[flourish]] when taxes are low. || Kleine Unternehmen florieren, wenn die Steuern niedrig sind.
++ Online retail has [[flourished]] in recent years. || Der Onlinehandel hat in den letzten Jahren floriert.
+57 to occur | auftreten, vorkommen, geschehen
++ Recessions [[occur]] roughly every eight to ten years. || Rezessionen treten etwa alle acht bis zehn Jahre auf.
++ The error [[occurred]] during the data transfer. || Der Fehler trat während der Datenübertragung auf.
+58 to shrink | schrumpfen
++ The economy [[shrank]] by 0.3 percent in the last quarter. || Die Wirtschaft schrumpfte im letzten Quartal um 0,3 Prozent.
++ The company's market share continues to [[shrink]]. || Der Marktanteil des Unternehmens schrumpft weiter.
+59 to speed up | beschleunigen
++ The government wants to [[speed up]] the approval process for new factories. || Die Regierung will das Genehmigungsverfahren für neue Fabriken beschleunigen.
++ Automation has [[sped up]] production considerably. || Die Automatisierung hat die Produktion erheblich beschleunigt.
+60 to suffer | leiden
++ Small retailers [[suffered]] most during the lockdown. || Kleine Einzelhändler litten am meisten unter dem Lockdown.
++ Exports [[suffer]] when the currency is too strong. || Exporte leiden, wenn die Währung zu stark ist.
+61 to sustain | aufrechterhalten, tragen, erleiden | de: Verb
++ It will be difficult to [[sustain]] this level of growth. || Es wird schwierig sein, dieses Wachstumsniveau aufrechtzuerhalten.
++ The company [[sustained]] heavy losses last year. || Das Unternehmen erlitt im letzten Jahr schwere Verluste.
+62 to weed out | aussortieren, ausmerzen
++ A recession tends to [[weed out]] weak companies. || Eine Rezession sortiert schwache Unternehmen meist aus.
++ The new software helps to [[weed out]] fake applications. || Die neue Software hilft, gefälschte Bewerbungen auszusortieren.
+63 volatile | volatil, schwankend, unbeständig
++ Oil prices have been extremely [[volatile]] this year. || Die Ölpreise waren in diesem Jahr extrem schwankend.
++ Investors avoid [[volatile]] markets in times of uncertainty. || Anleger meiden in unsicheren Zeiten volatile Märkte.
+@S C | Trends
+64 barren landscape | karge, öde Landschaft | acc: karge Landschaft; öde Landschaft
++ After the mine closed, only a [[barren landscape]] was left. || Nach der Schließung der Mine blieb nur eine öde Landschaft zurück.
++ For years, the region was a [[barren landscape]] for new businesses. || Jahrelang war die Region eine karge Landschaft für neue Unternehmen.
+65 budding | aufstrebend, keimend
++ The programme offers support to [[budding]] entrepreneurs. || Das Programm unterstützt aufstrebende Unternehmer.
++ There are signs of a [[budding]] recovery in the housing market. || Es gibt Anzeichen einer keimenden Erholung auf dem Wohnungsmarkt.
+66 fare | Fahrpreis
++ Train [[fares]] will rise by five percent in January. || Die Fahrpreise der Bahn steigen im Januar um fünf Prozent.
++ The airline offers low [[fares]] but charges extra for luggage. || Die Fluggesellschaft bietet niedrige Preise, berechnet Gepäck aber extra.
+67 forged document | gefälschtes Dokument
++ The police discovered that the contract was a [[forged document]]. || Die Polizei entdeckte, dass der Vertrag ein gefälschtes Dokument war.
++ He tried to open a bank account with a [[forged document]]. || Er versuchte, mit einem gefälschten Dokument ein Bankkonto zu eröffnen.
+68 green shoots | erste Erholungszeichen (grüne Triebe) | acc: erste Erholungszeichen; Erholungszeichen; grüne Triebe
++ Economists see the first [[green shoots]] of recovery. || Ökonomen sehen die ersten Anzeichen einer Erholung.
++ Rising orders are seen as [[green shoots]] for the industry. || Steigende Aufträge gelten als erste Erholungszeichen für die Branche.
+69 inequality | Ungleichheit
++ Income [[inequality]] has grown in many industrial countries. || Die Einkommensungleichheit ist in vielen Industrieländern gewachsen.
++ The report highlights the [[inequality]] between rich and poor regions. || Der Bericht hebt die Ungleichheit zwischen reichen und armen Regionen hervor.
+70 poverty | Armut
++ Millions of people still live in [[poverty]]. || Millionen Menschen leben noch immer in Armut.
++ Education is one of the best ways to fight [[poverty]]. || Bildung ist einer der besten Wege, Armut zu bekämpfen.
+71 regulations | Vorschriften, Regelungen
++ New environmental [[regulations]] will come into force next year. || Neue Umweltvorschriften treten im nächsten Jahr in Kraft.
++ Banks must follow strict [[regulations]]. || Banken müssen strenge Vorschriften einhalten.
+72 root and branch | gründlich, von Grund auf
++ The new minister promised a [[root and branch]] reform of the tax system. || Der neue Minister versprach eine Reform des Steuersystems von Grund auf.
++ The health service needs to be reformed [[root and branch]]. || Das Gesundheitssystem muss von Grund auf reformiert werden.
+73 safety | Sicherheit (Schutz vor Unfällen/Gefahr)
++ Workers must wear helmets for their own [[safety]]. || Arbeiter müssen zu ihrer eigenen Sicherheit Helme tragen.
++ The factory has an excellent [[safety]] record. || Die Fabrik hat eine hervorragende Sicherheitsbilanz.
+74 security | Sicherheit (Schutz vor Angriff/Diebstahl)
++ The company has increased [[security]] at all its warehouses. || Das Unternehmen hat die Sicherheit in all seinen Lagern erhöht.
++ Data [[security]] is a top priority for online banks. || Datensicherheit hat für Onlinebanken oberste Priorität.
+75 seed corn | Saatgut
++ Profits from the old business are the [[seed corn]] for new projects. || Gewinne aus dem alten Geschäft sind das Saatgut für neue Projekte.
++ Farmers must keep enough [[seed corn]] for next year's harvest. || Bauern müssen genug Saatgut für die Ernte des nächsten Jahres zurückbehalten.
+76 to boost | ankurbeln, steigern
++ The government cut taxes to [[boost]] the economy. || Die Regierung senkte die Steuern, um die Wirtschaft anzukurbeln.
++ The advertising campaign [[boosted]] sales by 20 percent. || Die Werbekampagne steigerte den Umsatz um 20 Prozent.
+77 to conduct business | Geschäfte betreiben
++ Most companies now [[conduct business]] online. || Die meisten Unternehmen betreiben ihre Geschäfte heute online.
++ It is difficult to [[conduct business]] in a country with so much corruption. || Es ist schwierig, in einem Land mit so viel Korruption Geschäfte zu betreiben.
+78 to decline | zurückgehen, sinken; ablehnen
++ Sales [[declined]] sharply in the third quarter. || Der Umsatz ging im dritten Quartal stark zurück.
++ She [[declined]] the job offer because the salary was too low. || Sie lehnte das Jobangebot ab, weil das Gehalt zu niedrig war.
+79 to drive change | Veränderung vorantreiben
++ Young managers often [[drive change]] in traditional companies. || Junge Manager treiben in traditionellen Unternehmen oft Veränderungen voran.
++ Digital technology continues to [[drive change]] in the banking sector. || Digitale Technologie treibt weiterhin Veränderungen im Bankensektor voran.
+80 to enforce | durchsetzen
++ The authorities must [[enforce]] the new rules strictly. || Die Behörden müssen die neuen Regeln streng durchsetzen.
++ The contract is difficult to [[enforce]] in a foreign country. || Der Vertrag ist im Ausland schwer durchzusetzen.
+81 to plough back | reinvestieren
++ The owners [[plough back]] most of the profits into the business. || Die Eigentümer reinvestieren den Großteil der Gewinne in das Unternehmen.
++ Last year's profits were [[ploughed back]] into research. || Die Gewinne des letzten Jahres wurden in die Forschung reinvestiert.
+82 to prune back | zurückschneiden
++ The company had to [[prune back]] its product range. || Das Unternehmen musste sein Produktsortiment zurückschneiden.
++ Gardeners [[prune back]] roses in early spring. || Gärtner schneiden Rosen im frühen Frühling zurück.
+83 to raise | erhöhen, anheben | de: etwas erhöhen
++ The bank decided to [[raise]] interest rates again. || Die Bank beschloss, die Zinsen erneut anzuheben.
++ Many firms have [[raised]] their prices this year. || Viele Firmen haben in diesem Jahr ihre Preise erhöht.
+84 to restrict | einschränken
++ The new law [[restricts]] the sale of alcohol. || Das neue Gesetz schränkt den Verkauf von Alkohol ein.
++ Banks have [[restricted]] lending to small companies. || Banken haben die Kreditvergabe an kleine Unternehmen eingeschränkt.
+85 to rise | steigen | de: von selbst
++ Prices continue to [[rise]] across Europe. || Die Preise steigen in ganz Europa weiter.
++ Unemployment [[rose]] for the third month in a row. || Die Arbeitslosigkeit stieg den dritten Monat in Folge.
+86 to soar | in die Höhe schnellen
++ Energy prices [[soared]] after the start of the war. || Die Energiepreise schnellten nach Kriegsbeginn in die Höhe.
++ Demand for electric cars is expected to [[soar]]. || Es wird erwartet, dass die Nachfrage nach Elektroautos in die Höhe schnellt.
+87 to sow the seeds | den Grundstein legen, Samen säen
++ Cheap credit [[sowed the seeds]] of the financial crisis. || Billige Kredite legten den Grundstein für die Finanzkrise.
++ Good training today will [[sow the seeds]] for future success. || Gute Ausbildung heute legt den Grundstein für künftigen Erfolg.
+88 to yield | einbringen, abwerfen
++ The investment [[yielded]] a return of eight percent. || Die Investition warf eine Rendite von acht Prozent ab.
++ Government bonds [[yield]] less than shares. || Staatsanleihen bringen weniger ein als Aktien.
+89 unequal | ungleich
++ Wealth is distributed in a very [[unequal]] way. || Vermögen ist sehr ungleich verteilt.
++ Women and men still receive [[unequal]] pay for the same work. || Frauen und Männer erhalten für die gleiche Arbeit immer noch ungleichen Lohn.
+90 windfall | unverhoffter Gewinn
++ The company received a [[windfall]] when energy prices soared. || Das Unternehmen erzielte einen unverhofften Gewinn, als die Energiepreise in die Höhe schnellten.
++ The government plans a tax on [[windfall]] profits. || Die Regierung plant eine Steuer auf Zufallsgewinne.
+@L 02 | Marketing
+@S A | The Marketing Mix
+1 (business / sales) pitch | Verkaufsgespräch, Präsentation | alt: pitch; business pitch; sales pitch
++ She gave an excellent sales [[pitch]] to the new client. || Sie führte mit dem neuen Kunden ein hervorragendes Verkaufsgespräch.
++ The start-up has ten minutes for its [[pitch]] to investors. || Das Start-up hat zehn Minuten für seine Präsentation vor Investoren.
+2 competition | Konkurrenz, Wettbewerb
++ [[Competition]] in the smartphone market is very fierce. || Der Wettbewerb auf dem Smartphonemarkt ist sehr hart.
++ We need to lower our prices to keep up with the [[competition]]. || Wir müssen unsere Preise senken, um mit der Konkurrenz mitzuhalten.
+3 competitive | wettbewerbsfähig
++ Our prices are highly [[competitive]]. || Unsere Preise sind sehr wettbewerbsfähig.
++ Lower costs make the company more [[competitive]] abroad. || Niedrigere Kosten machen das Unternehmen im Ausland wettbewerbsfähiger.
+4 competitor | Konkurrent, Wettbewerber
++ Our main [[competitor]] has just launched a cheaper product. || Unser Hauptkonkurrent hat gerade ein günstigeres Produkt eingeführt.
++ The firm was taken over by a larger [[competitor]]. || Die Firma wurde von einem größeren Wettbewerber übernommen.
+5 corporate | Unternehmens-, betrieblich
++ The company is changing its [[corporate]] identity. || Das Unternehmen ändert seine Unternehmensidentität.
++ All employees must follow the new [[corporate]] guidelines. || Alle Mitarbeiter müssen die neuen Unternehmensrichtlinien befolgen.
+6 entrepreneur | Unternehmer/in
++ The young [[entrepreneur]] founded her first company at 22. || Die junge Unternehmerin gründete ihre erste Firma mit 22.
++ Successful [[entrepreneurs]] are not afraid of taking risks. || Erfolgreiche Unternehmer haben keine Angst vor Risiken.
+7 environment | Umwelt, Umfeld
++ The new packaging is better for the [[environment]]. || Die neue Verpackung ist besser für die Umwelt.
++ Companies must adapt quickly to a changing business [[environment]]. || Unternehmen müssen sich schnell an ein sich wandelndes Geschäftsumfeld anpassen.
+8 ESP | emotionales Verkaufsargument (Emotional Selling Proposition) | alt: emotional selling proposition
++ The brand's [[ESP]] is the feeling of freedom it promises. || Das emotionale Verkaufsargument der Marke ist das Gefühl von Freiheit, das sie verspricht.
++ Luxury products often rely more on an [[ESP]] than on technical features. || Luxusprodukte setzen oft mehr auf ein emotionales Verkaufsargument als auf technische Merkmale.
+9 exhibition, fair | Messe, Ausstellung
++ We will present our new products at the trade [[fair]] in Hanover. || Wir stellen unsere neuen Produkte auf der Messe in Hannover vor.
++ The [[exhibition]] attracted more than 50,000 visitors. || Die Ausstellung zog mehr als 50.000 Besucher an.
+10 expertise | Fachwissen, Expertise
++ We need someone with [[expertise]] in online marketing. || Wir brauchen jemanden mit Fachwissen im Onlinemarketing.
++ The consultants brought valuable [[expertise]] to the project. || Die Berater brachten wertvolle Expertise in das Projekt ein.
+11 facility | Einrichtung, Anlage
++ The company opened a new production [[facility]] in Poland. || Das Unternehmen eröffnete eine neue Produktionsanlage in Polen.
++ The hotel offers excellent conference [[facilities]]. || Das Hotel bietet hervorragende Konferenzeinrichtungen.
+12 feature | Merkmal, Eigenschaft
++ The most important [[feature]] of the new phone is its camera. || Das wichtigste Merkmal des neuen Handys ist seine Kamera.
++ The software has several useful [[features]] for small businesses. || Die Software hat mehrere nützliche Eigenschaften für kleine Unternehmen.
+13 field | Gebiet, Bereich
++ She is an expert in the [[field]] of digital marketing. || Sie ist Expertin auf dem Gebiet des digitalen Marketings.
++ The company is a leader in its [[field]]. || Das Unternehmen ist führend in seinem Bereich.
+14 invaluable | unschätzbar, von unschätzbarem Wert
++ Your feedback has been [[invaluable]] to our team. || Ihr Feedback war für unser Team von unschätzbarem Wert.
++ Experience abroad is [[invaluable]] for a career in sales. || Auslandserfahrung ist für eine Karriere im Vertrieb unschätzbar.
+15 intangible | immateriell, nicht greifbar
++ A brand's reputation is an [[intangible]] asset. || Der Ruf einer Marke ist ein immaterieller Vermögenswert.
++ Services are [[intangible]], so they are harder to market. || Dienstleistungen sind nicht greifbar und daher schwerer zu vermarkten.
+16 marketing mix | Marketingmix
++ Price is one of the four Ps of the [[marketing mix]]. || Der Preis ist eines der vier Ps des Marketingmix.
++ The team adjusted the [[marketing mix]] for the Asian market. || Das Team passte den Marketingmix für den asiatischen Markt an.
+17 measure | Maßnahme | de: Nomen
++ The company introduced [[measures]] to reduce costs. || Das Unternehmen führte Maßnahmen zur Kostensenkung ein.
++ As a safety [[measure]], all visitors must register. || Als Sicherheitsmaßnahme müssen sich alle Besucher anmelden.
+18 on-site | vor Ort
++ The factory has an [[on-site]] canteen for its workers. || Die Fabrik hat eine Kantine vor Ort für ihre Arbeiter.
++ Our technicians provide [[on-site]] support. || Unsere Techniker bieten Unterstützung vor Ort.
+19 outlet | Verkaufsstelle, Filiale
++ The brand sells its products through more than 300 [[outlets]]. || Die Marke verkauft ihre Produkte über mehr als 300 Verkaufsstellen.
++ The company plans to open a new [[outlet]] in the city centre. || Das Unternehmen plant, eine neue Filiale in der Innenstadt zu eröffnen.
+20 overheads | Gemeinkosten
++ Working from home helps small firms keep their [[overheads]] low. || Homeoffice hilft kleinen Firmen, ihre Gemeinkosten niedrig zu halten.
++ Rent and electricity are part of a company's [[overheads]]. || Miete und Strom gehören zu den Gemeinkosten eines Unternehmens.
+21 premises | Geschäftsräume, Gelände
++ Smoking is not allowed anywhere on the [[premises]]. || Rauchen ist auf dem gesamten Gelände verboten.
++ The company moved to larger [[premises]] last year. || Das Unternehmen ist letztes Jahr in größere Geschäftsräume umgezogen.
+22 product launch | Produkteinführung
++ The [[product launch]] is planned for early March. || Die Produkteinführung ist für Anfang März geplant.
++ A successful [[product launch]] needs careful planning. || Eine erfolgreiche Produkteinführung erfordert sorgfältige Planung.
+23 promise | Versprechen
++ The company kept its [[promise]] to deliver within 24 hours. || Das Unternehmen hielt sein Versprechen, innerhalb von 24 Stunden zu liefern.
++ A brand [[promise]] must be realistic. || Ein Markenversprechen muss realistisch sein.
+24 promotional item | Werbeartikel
++ Pens and mugs are popular [[promotional items]]. || Kugelschreiber und Tassen sind beliebte Werbeartikel.
++ Visitors to our stand received a free [[promotional item]]. || Besucher unseres Stands erhielten einen kostenlosen Werbeartikel.
+25 retail | Einzelhandel
++ Online shopping has changed [[retail]] completely. || Der Onlinehandel hat den Einzelhandel völlig verändert.
++ She has worked in [[retail]] for over twenty years. || Sie arbeitet seit über zwanzig Jahren im Einzelhandel.
+26 stock 1 | Lagerbestand, Vorrat | en: goods | de: Waren
++ The item you ordered is currently out of [[stock]]. || Der bestellte Artikel ist zurzeit nicht auf Lager.
++ We need to reduce our [[stock]] before the new models arrive. || Wir müssen unseren Lagerbestand reduzieren, bevor die neuen Modelle kommen.
+27 stock 2 | Aktie(n), Wertpapiere | en: finance | de: Börse
++ She invested her savings in [[stocks]] and bonds. || Sie investierte ihre Ersparnisse in Aktien und Anleihen.
++ The company's [[stock]] rose by ten percent after the announcement. || Die Aktie des Unternehmens stieg nach der Ankündigung um zehn Prozent.
+28 tangible | greifbar, materiell
++ The new strategy has already produced [[tangible]] results. || Die neue Strategie hat bereits greifbare Ergebnisse erzielt.
++ Buildings and machines are [[tangible]] assets. || Gebäude und Maschinen sind materielle Vermögenswerte.
+29 tight deadline | knapper Termin, enge Frist
++ We are working to a [[tight deadline]] for the new campaign. || Für die neue Kampagne haben wir eine enge Frist.
++ The agency met the [[tight deadline]] despite the extra work. || Die Agentur hielt den knappen Termin trotz der zusätzlichen Arbeit ein.
+30 to appeal to someone | jdn. ansprechen, jdm. gefallen
++ The new design should [[appeal to]] younger customers. || Das neue Design soll jüngere Kunden ansprechen.
++ The idea didn't [[appeal to]] the board. || Die Idee gefiel dem Vorstand nicht.
+31 to assure | versichern, zusichern | de: beteuern
++ I can [[assure]] you that your order will arrive on time. || Ich kann Ihnen versichern, dass Ihre Bestellung pünktlich ankommt.
++ The manager [[assured]] the staff that no jobs would be lost. || Der Manager versicherte den Mitarbeitern, dass keine Stellen wegfallen würden.
+32 to compete | konkurrieren, im Wettbewerb stehen
++ Small shops cannot [[compete]] with online giants on price. || Kleine Läden können preislich nicht mit Online-Riesen konkurrieren.
++ Several firms are [[competing]] for the contract. || Mehrere Firmen konkurrieren um den Auftrag.
+33 to conceptualize | konzipieren, ein Konzept entwickeln
++ The agency [[conceptualized]] a completely new campaign. || Die Agentur konzipierte eine völlig neue Kampagne.
++ First we need to [[conceptualize]] the product, then we can test it. || Zuerst müssen wir das Produkt konzipieren, dann können wir es testen.
+34 to draft something, to make a draft | etw. entwerfen, einen Entwurf erstellen
++ Could you [[draft]] a letter to our customers? || Könnten Sie einen Brief an unsere Kunden entwerfen?
++ Let's [[make a draft]] of the presentation first. || Lass uns zuerst einen Entwurf der Präsentation erstellen.
+35 to ensure | sicherstellen
++ Please [[ensure]] that all documents are signed. || Bitte stellen Sie sicher, dass alle Dokumente unterschrieben sind.
++ Regular checks [[ensure]] high product quality. || Regelmäßige Kontrollen stellen eine hohe Produktqualität sicher.
+36 to handle | handhaben, bearbeiten, abwickeln
++ Our customer service team [[handles]] all complaints. || Unser Kundenservice bearbeitet alle Beschwerden.
++ The agency will [[handle]] the entire product launch. || Die Agentur wird die gesamte Produkteinführung abwickeln.
+37 to insure | versichern (Versicherung)
++ The goods are [[insured]] against damage during transport. || Die Waren sind gegen Transportschäden versichert.
++ You should [[insure]] your equipment against theft. || Sie sollten Ihre Ausrüstung gegen Diebstahl versichern.
+38 to launch something | etw. einführen, auf den Markt bringen
++ The company will [[launch]] its new app in May. || Das Unternehmen bringt seine neue App im Mai auf den Markt.
++ They [[launched]] the product with a big online campaign. || Sie führten das Produkt mit einer großen Onlinekampagne ein.
+39 to pitch someone something | jdm. etw. anbieten, präsentieren
++ We [[pitched]] our idea to three investors. || Wir präsentierten unsere Idee drei Investoren.
++ The agency [[pitched]] the client a new advertising concept. || Die Agentur bot dem Kunden ein neues Werbekonzept an.
+40 to seize | ergreifen, nutzen
++ We must [[seize]] this opportunity before our competitors do. || Wir müssen diese Gelegenheit ergreifen, bevor es unsere Konkurrenten tun.
++ The start-up [[seized]] the chance to expand abroad. || Das Start-up nutzte die Chance, ins Ausland zu expandieren.
+41 to stand out from something | sich von etw. abheben
++ Our packaging helps us [[stand out from]] the competition. || Unsere Verpackung hilft uns, uns von der Konkurrenz abzuheben.
++ Her application [[stood out from]] all the others. || Ihre Bewerbung hob sich von allen anderen ab.
+42 unique | einzigartig
++ Each of our handmade products is [[unique]]. || Jedes unserer handgefertigten Produkte ist einzigartig.
++ The hotel offers a [[unique]] view of the mountains. || Das Hotel bietet einen einzigartigen Blick auf die Berge.
+43 USP | Alleinstellungsmerkmal | alt: unique selling proposition; unique selling point
++ Our [[USP]] is free delivery within two hours. || Unser Alleinstellungsmerkmal ist die kostenlose Lieferung innerhalb von zwei Stunden.
++ Without a clear [[USP]], a new product will struggle in the market. || Ohne klares Alleinstellungsmerkmal wird sich ein neues Produkt auf dem Markt schwertun.
+44 vital | lebenswichtig, entscheidend
++ Good customer service is [[vital]] for our success. || Guter Kundenservice ist entscheidend für unseren Erfolg.
++ Clean water is [[vital]] for the production process. || Sauberes Wasser ist für den Produktionsprozess lebenswichtig.
+@S B | Trends
+45 advertisement | Werbeanzeige
++ We placed an [[advertisement]] in a national newspaper. || Wir haben eine Werbeanzeige in einer überregionalen Zeitung geschaltet.
++ The [[advertisement]] appeared on social media for two weeks. || Die Werbeanzeige erschien zwei Wochen lang in den sozialen Medien.
+46 advertising | Werbung
++ The company spends millions on [[advertising]] every year. || Das Unternehmen gibt jedes Jahr Millionen für Werbung aus.
++ Online [[advertising]] is cheaper than TV commercials. || Onlinewerbung ist günstiger als Fernsehspots.
+47 audience | Publikum, Zielgruppe
++ The campaign is aimed at a young [[audience]]. || Die Kampagne richtet sich an ein junges Publikum.
++ We need to know our target [[audience]] better. || Wir müssen unsere Zielgruppe besser kennen.
+48 concern 1 | Sorge, Bedenken | en: worry | de: Gefühl
++ Customers have raised [[concerns]] about data protection. || Kunden haben Bedenken zum Datenschutz geäußert.
++ Rising costs are a major [[concern]] for small businesses. || Steigende Kosten sind eine große Sorge für kleine Unternehmen.
+49 concern 2 | Unternehmen, Konzern | en: company | de: Konzern
++ The family business has become a large international [[concern]]. || Das Familienunternehmen ist zu einem großen internationalen Konzern geworden.
++ The chemicals [[concern]] employs over 10,000 people. || Der Chemiekonzern beschäftigt über 10.000 Menschen.
+50 content | Inhalt
++ Good [[content]] is the key to successful social media marketing. || Guter Inhalt ist der Schlüssel zu erfolgreichem Social-Media-Marketing.
++ The website's [[content]] is updated every week. || Der Inhalt der Website wird jede Woche aktualisiert.
+51 cookie | Cookie
++ The website uses [[cookies]] to track users' behaviour. || Die Website verwendet Cookies, um das Verhalten der Nutzer zu verfolgen.
++ Visitors must accept or reject [[cookies]] when they open the page. || Besucher müssen beim Öffnen der Seite Cookies akzeptieren oder ablehnen.
+52 device | Gerät
++ Most people now shop on mobile [[devices]]. || Die meisten Menschen kaufen heute auf mobilen Geräten ein.
++ The app works on any [[device]]. || Die App funktioniert auf jedem Gerät.
+53 digital dossier | digitales Dossier (gesammelte Daten über eine Person)
++ Online shops build a [[digital dossier]] on every customer. || Onlineshops legen über jeden Kunden ein digitales Dossier an.
++ Many users don't know how detailed their [[digital dossier]] is. || Viele Nutzer wissen nicht, wie detailliert ihr digitales Dossier ist.
+54 digital footprint | digitaler Fußabdruck
++ Everything you post online adds to your [[digital footprint]]. || Alles, was Sie online posten, vergrößert Ihren digitalen Fußabdruck.
++ Employers often check an applicant's [[digital footprint]]. || Arbeitgeber prüfen oft den digitalen Fußabdruck eines Bewerbers.
+55 intrusive | aufdringlich
++ Many users find pop-up ads [[intrusive]]. || Viele Nutzer finden Pop-up-Werbung aufdringlich.
++ The questions in the survey were too [[intrusive]]. || Die Fragen in der Umfrage waren zu aufdringlich.
+56 precision | Genauigkeit, Präzision
++ Online ads can target customers with great [[precision]]. || Onlinewerbung kann Kunden mit großer Präzision ansprechen.
++ The machine works with extreme [[precision]]. || Die Maschine arbeitet mit äußerster Genauigkeit.
+57 pre-digital era | vordigitale Ära
++ In the [[pre-digital era]], companies relied on print advertising. || In der vordigitalen Ära setzten Unternehmen auf Printwerbung.
++ Market research was much slower in the [[pre-digital era]]. || Marktforschung war in der vordigitalen Ära viel langsamer.
+58 sophisticated | hochentwickelt, ausgeklügelt
++ The company uses [[sophisticated]] software to analyse customer data. || Das Unternehmen nutzt hochentwickelte Software zur Analyse von Kundendaten.
++ They developed a [[sophisticated]] marketing strategy. || Sie entwickelten eine ausgeklügelte Marketingstrategie.
+59 spam | Spam, unerwünschte Massenmail
++ Most of the emails I receive are [[spam]]. || Die meisten E-Mails, die ich erhalte, sind Spam.
++ Good filters stop [[spam]] before it reaches your inbox. || Gute Filter stoppen Spam, bevor er Ihren Posteingang erreicht.
+60 technical | technisch
++ Please contact our [[technical]] support team. || Bitte wenden Sie sich an unser technisches Support-Team.
++ The launch was delayed due to [[technical]] problems. || Die Markteinführung verzögerte sich wegen technischer Probleme.
+61 technician | Techniker/in
++ A [[technician]] will come to repair the machine tomorrow. || Morgen kommt ein Techniker, um die Maschine zu reparieren.
++ The company is looking for qualified IT [[technicians]]. || Das Unternehmen sucht qualifizierte IT-Techniker.
+62 technique | Technik, Verfahren | de: Methode
++ The agency uses modern sales [[techniques]]. || Die Agentur nutzt moderne Verkaufstechniken.
++ This new [[technique]] reduces production time by half. || Dieses neue Verfahren halbiert die Produktionszeit.
+63 technological | technologisch
++ [[Technological]] progress is changing the way we shop. || Der technologische Fortschritt verändert die Art, wie wir einkaufen.
++ The firm has a clear [[technological]] advantage over its rivals. || Die Firma hat einen klaren technologischen Vorsprung gegenüber ihren Konkurrenten.
+64 technology | Technologie
++ New [[technology]] allows us to personalize every advertisement. || Neue Technologie ermöglicht es uns, jede Werbeanzeige zu personalisieren.
++ The company invests heavily in green [[technology]]. || Das Unternehmen investiert stark in grüne Technologie.
+65 to estimate | schätzen
++ Experts [[estimate]] that online sales will double. || Experten schätzen, dass sich der Onlineumsatz verdoppeln wird.
++ It is difficult to [[estimate]] the cost of the campaign. || Es ist schwierig, die Kosten der Kampagne zu schätzen.
+66 to flood | überfluten
++ Cheap imports have [[flooded]] the market. || Billige Importe haben den Markt überflutet.
++ Users are [[flooded]] with advertising every day. || Nutzer werden jeden Tag mit Werbung überflutet.
+67 to fuel | anheizen, antreiben
++ Low interest rates helped to [[fuel]] the housing boom. || Niedrige Zinsen trugen dazu bei, den Immobilienboom anzuheizen.
++ Social media continues to [[fuel]] demand for the product. || Soziale Medien heizen die Nachfrage nach dem Produkt weiter an.
+68 to maintain | aufrechterhalten, warten, behaupten
++ It is important to [[maintain]] good relations with our suppliers. || Es ist wichtig, gute Beziehungen zu unseren Lieferanten aufrechtzuerhalten.
++ The machines are [[maintained]] every six months. || Die Maschinen werden alle sechs Monate gewartet.
+69 to personalize | personalisieren
++ Online shops [[personalize]] their offers for each customer. || Onlineshops personalisieren ihre Angebote für jeden Kunden.
++ Customers can [[personalize]] their sneakers on our website. || Kunden können ihre Sneaker auf unserer Website personalisieren.
+70 to profile | ein Profil erstellen von
++ Social networks [[profile]] users based on their likes. || Soziale Netzwerke erstellen Profile von Nutzern anhand ihrer Likes.
++ The company [[profiled]] its typical customers before the campaign. || Das Unternehmen erstellte vor der Kampagne Profile seiner typischen Kunden.
+71 to reach out to | kontaktieren, erreichen
++ We [[reached out to]] several influencers for the campaign. || Wir haben für die Kampagne mehrere Influencer kontaktiert.
++ The charity wants to [[reach out to]] young people. || Die Wohltätigkeitsorganisation möchte junge Menschen erreichen.
+72 to solicit | erbitten, werben um
++ The company [[solicits]] feedback from customers after every purchase. || Das Unternehmen bittet nach jedem Kauf um Kundenfeedback.
++ Charities [[solicit]] donations by email and phone. || Wohltätigkeitsorganisationen werben per E-Mail und Telefon um Spenden.
+73 to tailor | maßschneidern, zuschneiden
++ We [[tailor]] our services to the needs of each client. || Wir schneiden unsere Dienstleistungen auf die Bedürfnisse jedes Kunden zu.
++ The ads are [[tailored]] to different age groups. || Die Anzeigen sind auf verschiedene Altersgruppen zugeschnitten.
+74 to volunteer | freiwillig anbieten, preisgeben
++ Users often [[volunteer]] personal information without thinking. || Nutzer geben oft ohne nachzudenken persönliche Informationen preis.
++ Three employees [[volunteered]] to organise the event. || Drei Mitarbeiter boten freiwillig an, die Veranstaltung zu organisieren.
+75 tool | Werkzeug, Instrument
++ Social media is a powerful marketing [[tool]]. || Soziale Medien sind ein wirkungsvolles Marketinginstrument.
++ The new [[tool]] helps us analyse website traffic. || Das neue Werkzeug hilft uns, den Website-Traffic zu analysieren.
+76 unsolicited | unaufgefordert, unerwünscht
++ We receive dozens of [[unsolicited]] emails every day. || Wir erhalten täglich Dutzende unerwünschter E-Mails.
++ She sent an [[unsolicited]] application to the company. || Sie schickte dem Unternehmen eine unaufgeforderte Bewerbung.
+77 variety | Vielfalt, Auswahl
++ The shop offers a wide [[variety]] of products. || Der Laden bietet eine große Auswahl an Produkten.
++ Customers appreciate the [[variety]] of payment options. || Kunden schätzen die Vielfalt der Zahlungsmöglichkeiten.
+78 vast | riesig, gewaltig
++ Tech companies collect [[vast]] amounts of data. || Technologieunternehmen sammeln riesige Datenmengen.
++ The [[vast]] majority of customers shop online. || Die überwiegende Mehrheit der Kunden kauft online ein.
+@S C | Segmentation
+79 consumer | Verbraucher
++ [[Consumers]] are becoming more interested in sustainable products. || Verbraucher interessieren sich zunehmend für nachhaltige Produkte.
++ Higher prices have reduced [[consumer]] spending. || Höhere Preise haben die Verbraucherausgaben verringert.
+80 consumer market | Verbrauchermarkt
++ The company is moving from industrial customers into the [[consumer market]]. || Das Unternehmen wechselt von Industriekunden in den Verbrauchermarkt.
++ The [[consumer market]] for smart watches is growing fast. || Der Verbrauchermarkt für Smartwatches wächst schnell.
+81 customer | Kunde
++ The [[customer]] is always right. || Der Kunde hat immer recht.
++ We want to attract new [[customers]] with a special offer. || Wir wollen mit einem Sonderangebot neue Kunden gewinnen.
+82 end user | Endverbraucher, Endnutzer
++ The software must be easy to use for the [[end user]]. || Die Software muss für den Endnutzer leicht zu bedienen sein.
++ We sell to retailers, not directly to [[end users]]. || Wir verkaufen an Händler, nicht direkt an Endverbraucher.
+83 disposable income | verfügbares Einkommen
++ Our target group has a high [[disposable income]]. || Unsere Zielgruppe hat ein hohes verfügbares Einkommen.
++ Luxury brands focus on customers with plenty of [[disposable income]]. || Luxusmarken konzentrieren sich auf Kunden mit viel verfügbarem Einkommen.
+84 industrial market | Industriemarkt (B2B)
++ On the [[industrial market]], companies sell to other businesses. || Auf dem Industriemarkt verkaufen Unternehmen an andere Unternehmen.
++ Personal relationships are very important in the [[industrial market]]. || Persönliche Beziehungen sind auf dem Industriemarkt sehr wichtig.
+85 purchase | Kauf, Anschaffung
++ Thank you for your [[purchase]]! || Vielen Dank für Ihren Kauf!
++ A new car is a major [[purchase]] for most families. || Ein neues Auto ist für die meisten Familien eine große Anschaffung.
+86 segmentation | Segmentierung
++ Market [[segmentation]] helps companies target the right customers. || Marktsegmentierung hilft Unternehmen, die richtigen Kunden anzusprechen.
++ [[Segmentation]] by age and income is very common. || Eine Segmentierung nach Alter und Einkommen ist sehr verbreitet.
+87 supplier | Lieferant
++ We are looking for a new [[supplier]] of packaging materials. || Wir suchen einen neuen Lieferanten für Verpackungsmaterial.
++ Our main [[supplier]] has raised its prices. || Unser Hauptlieferant hat seine Preise erhöht.
+88 to target | anvisieren, gezielt ansprechen
++ The campaign [[targets]] students and young professionals. || Die Kampagne spricht gezielt Studierende und junge Berufstätige an.
++ We are [[targeting]] a 10 percent increase in sales. || Wir peilen eine Umsatzsteigerung von 10 Prozent an.
+@L 03 | Distribution & Logistics
+@S A | Amazon robots
+1 aisle | Gang (zwischen Regalen)
++ Robots move the shelves through the narrow [[aisles]]. || Roboter bewegen die Regale durch die schmalen Gänge.
++ You will find the cleaning products in [[aisle]] seven. || Die Reinigungsmittel finden Sie in Gang sieben.
+2 conveyor belt | Förderband
++ The parcels travel along a [[conveyor belt]] to the loading area. || Die Pakete laufen auf einem Förderband zum Verladebereich.
++ A broken [[conveyor belt]] stopped production for two hours. || Ein defektes Förderband stoppte die Produktion für zwei Stunden.
+3 down time | Ausfallzeit, Stillstandzeit | alt: downtime
++ Regular maintenance helps to reduce [[down time]]. || Regelmäßige Wartung hilft, Ausfallzeiten zu reduzieren.
++ Every hour of [[down time]] costs the company thousands of euros. || Jede Stunde Stillstand kostet das Unternehmen Tausende Euro.
+4 economic artery (idiom) | Lebensader der Wirtschaft
++ The Rhine has long been an [[economic artery]] for Germany. || Der Rhein ist seit langem eine Lebensader der deutschen Wirtschaft.
++ This motorway is the region's main [[economic artery]]. || Diese Autobahn ist die wichtigste Lebensader der regionalen Wirtschaft.
+5 fertile ground | fruchtbarer Boden
++ The region has become [[fertile ground]] for tech start-ups. || Die Region ist zu einem fruchtbaren Boden für Tech-Start-ups geworden.
++ High unemployment is [[fertile ground]] for protest. || Hohe Arbeitslosigkeit ist ein fruchtbarer Boden für Proteste.
+6 gig economy (idiom) | Gig-Economy (kurzfristige Aufträge statt fester Jobs)
++ Many delivery drivers work in the [[gig economy]]. || Viele Lieferfahrer arbeiten in der Gig-Economy.
++ The [[gig economy]] offers flexibility but little security. || Die Gig-Economy bietet Flexibilität, aber wenig Sicherheit.
+7 grocery | Lebensmittel(geschäft)
++ More and more people order their [[groceries]] online. || Immer mehr Menschen bestellen ihre Lebensmittel online.
++ There is a small [[grocery]] store on the corner. || An der Ecke gibt es ein kleines Lebensmittelgeschäft.
+8 keep on your toes (idiom) | wachsam bleiben, aufmerksam sein
++ In logistics, you have to [[keep on your toes]] all the time. || In der Logistik muss man ständig wachsam bleiben.
++ The new competitor will help us [[keep on our toes]]. || Der neue Konkurrent wird dafür sorgen, dass wir aufmerksam bleiben.
+9 load | Ladung, Last | de: Gewicht
++ The truck was carrying a [[load]] of steel. || Der Lkw transportierte eine Ladung Stahl.
++ Each robot can lift a [[load]] of up to 500 kilograms. || Jeder Roboter kann eine Last von bis zu 500 Kilogramm heben.
+10 mature (market) | gesättigter, ausgereifter Markt | acc: gesättigter Markt; ausgereifter Markt; gesättigt; ausgereift
++ Online retail in the US is now a [[mature]] market. || Der Onlinehandel in den USA ist inzwischen ein gesättigter Markt.
++ Growth is slow in [[mature]] markets like Western Europe. || In gesättigten Märkten wie Westeuropa ist das Wachstum langsam.
+11 processing heart (idiom) | Verarbeitungszentrum, Herzstück
++ The warehouse is the [[processing heart]] of the whole operation. || Das Lager ist das Herzstück des gesamten Betriebs.
++ Thousands of orders pass through this [[processing heart]] every hour. || Tausende Bestellungen laufen jede Stunde durch dieses Verarbeitungszentrum.
+12 root-and-branch change | radikaler Wandel
++ Robots have brought [[root-and-branch change]] to the warehouse industry. || Roboter haben einen radikalen Wandel in der Lagerbranche bewirkt.
++ The new CEO announced a [[root-and-branch change]] of the company's structure. || Der neue CEO kündigte einen radikalen Wandel der Unternehmensstruktur an.
+13 shelf | Regal(brett)
++ The robot lifts the [[shelf]] and carries it to the worker. || Der Roboter hebt das Regal an und bringt es zum Mitarbeiter.
++ Our products are now on the [[shelves]] of every major supermarket. || Unsere Produkte stehen jetzt in den Regalen aller großen Supermärkte.
+14 stationary | ortsfest, stillstehend
++ The workers remain [[stationary]] while robots bring the goods to them. || Die Mitarbeiter bleiben an ihrem Platz, während Roboter ihnen die Waren bringen.
++ Traffic was [[stationary]] for hours after the accident. || Der Verkehr stand nach dem Unfall stundenlang still.
+15 tight labor market | angespannter Arbeitsmarkt
++ In a [[tight labor market]], companies struggle to find staff. || In einem angespannten Arbeitsmarkt haben Unternehmen Mühe, Personal zu finden.
++ The [[tight labor market]] is pushing wages up. || Der angespannte Arbeitsmarkt treibt die Löhne nach oben.
+16 to arise | entstehen, aufkommen
++ Problems can [[arise]] when robots and humans work together. || Probleme können entstehen, wenn Roboter und Menschen zusammenarbeiten.
++ New opportunities [[arose]] when the company expanded online. || Neue Chancen entstanden, als das Unternehmen online expandierte.
+17 to pick | kommissionieren, auswählen
++ Workers [[pick]] the items for each order from the shelves. || Mitarbeiter kommissionieren die Artikel für jede Bestellung aus den Regalen.
++ Robots can now [[pick]] small items faster than humans. || Roboter können kleine Artikel inzwischen schneller kommissionieren als Menschen.
+18 to raise | erhöhen, anheben | de: etwas erhöhen
++ Amazon [[raised]] wages for its warehouse workers. || Amazon erhöhte die Löhne seiner Lagerarbeiter.
++ Robots help to [[raise]] productivity in the warehouse. || Roboter helfen, die Produktivität im Lager zu erhöhen.
+19 to rise | steigen | de: von selbst
++ Online orders [[rise]] sharply before Christmas. || Die Onlinebestellungen steigen vor Weihnachten stark an.
++ Labour costs have [[risen]] by 15 percent. || Die Lohnkosten sind um 15 Prozent gestiegen.
+20 to take root | Fuß fassen, Wurzeln schlagen
++ Automation has [[taken root]] in almost every warehouse. || Die Automatisierung hat in fast jedem Lager Fuß gefasst.
++ It takes time for new ideas to [[take root]] in a company. || Es braucht Zeit, bis neue Ideen in einem Unternehmen Fuß fassen.
+@S B | Green Distribution channels
+1 carbon emissions | CO2-Emissionen
++ Shipping companies are trying to cut their [[carbon emissions]]. || Reedereien versuchen, ihre CO2-Emissionen zu senken.
++ Electric trucks produce no direct [[carbon emissions]]. || Elektro-Lkw verursachen keine direkten CO2-Emissionen.
+2 greenhouse gas emissions | Treibhausgasemissionen
++ Transport is responsible for a quarter of all [[greenhouse gas emissions]] in the EU. || Der Verkehr ist für ein Viertel aller Treibhausgasemissionen in der EU verantwortlich.
++ The company aims to reduce its [[greenhouse gas emissions]] to zero by 2040. || Das Unternehmen will seine Treibhausgasemissionen bis 2040 auf null senken.
+3 domestic (destination) | inländisch(es Ziel)
++ Most of our parcels go to [[domestic]] destinations. || Die meisten unserer Pakete gehen an inländische Ziele.
++ [[Domestic]] deliveries usually arrive within two days. || Inländische Lieferungen kommen meist innerhalb von zwei Tagen an.
+4 freight | Fracht | de: allgemein
++ Most [[freight]] in Europe is still transported by road. || Die meiste Fracht in Europa wird noch immer auf der Straße transportiert.
++ The [[freight]] costs have doubled since last year. || Die Frachtkosten haben sich seit letztem Jahr verdoppelt.
+5 cargo | Ladung, Fracht (Schiff/Flugzeug)
++ The ship was carrying a [[cargo]] of cars. || Das Schiff hatte eine Ladung Autos an Bord.
++ [[Cargo]] planes transport goods that are needed urgently. || Frachtflugzeuge transportieren Waren, die dringend gebraucht werden.
+6 to track | verfolgen, nachverfolgen
++ Customers can [[track]] their parcel online. || Kunden können ihr Paket online verfolgen.
++ GPS allows us to [[track]] every truck in real time. || GPS ermöglicht es uns, jeden Lkw in Echtzeit zu verfolgen.
+7 to disrupt | stören, unterbrechen
++ The storm [[disrupted]] shipping in the North Sea. || Der Sturm störte den Schiffsverkehr in der Nordsee.
++ Strikes could [[disrupt]] deliveries before Christmas. || Streiks könnten die Lieferungen vor Weihnachten unterbrechen.
+8 to triple | sich verdreifachen
++ Online sales have [[tripled]] in five years. || Der Onlineumsatz hat sich in fünf Jahren verdreifacht.
++ Shipping costs could [[triple]] if fuel prices keep rising. || Die Versandkosten könnten sich verdreifachen, wenn die Kraftstoffpreise weiter steigen.
+9 hub | Drehkreuz
++ Frankfurt is one of Europe's most important air freight [[hubs]]. || Frankfurt ist eines der wichtigsten Luftfrachtdrehkreuze Europas.
++ All parcels are sorted at the central [[hub]] before delivery. || Alle Pakete werden vor der Zustellung im zentralen Drehkreuz sortiert.
+10 crucial | entscheidend, ausschlaggebend
++ Fast delivery is [[crucial]] for online retailers. || Schnelle Lieferung ist für Onlinehändler entscheidend.
++ Reliable suppliers play a [[crucial]] role in our success. || Zuverlässige Lieferanten spielen eine entscheidende Rolle für unseren Erfolg.
+11 vulnerable | verwundbar, anfällig
++ Global supply chains are [[vulnerable]] to disruption. || Globale Lieferketten sind anfällig für Störungen.
++ Small suppliers are especially [[vulnerable]] in a crisis. || Kleine Lieferanten sind in einer Krise besonders verwundbar.
+12 slow steaming | Langsamfahrt (Schiffe)
++ [[Slow steaming]] reduces fuel consumption and emissions. || Langsamfahrt senkt den Kraftstoffverbrauch und die Emissionen.
++ Many shipping lines introduced [[slow steaming]] to save costs. || Viele Reedereien führten die Langsamfahrt ein, um Kosten zu sparen.
+13 susceptible | anfällig, empfänglich
++ Fresh food is [[susceptible]] to damage during transport. || Frische Lebensmittel sind anfällig für Schäden beim Transport.
++ Customers are [[susceptible]] to clever advertising. || Kunden sind empfänglich für geschickte Werbung.
+14 drought | Dürre
++ The [[drought]] lowered water levels on the Rhine. || Die Dürre senkte den Wasserstand des Rheins.
++ During the [[drought]], ships could only carry half their usual load. || Während der Dürre konnten Schiffe nur die Hälfte ihrer üblichen Ladung transportieren.
+15 to spawn | hervorbringen, erzeugen
++ Online shopping has [[spawned]] a whole new delivery industry. || Der Onlinehandel hat eine ganz neue Lieferbranche hervorgebracht.
++ The success of the app [[spawned]] many imitators. || Der Erfolg der App brachte viele Nachahmer hervor.
+16 to utilize | nutzen, verwenden
++ We [[utilize]] rail transport wherever possible. || Wir nutzen wo immer möglich den Schienentransport.
++ The warehouse space is not fully [[utilized]]. || Die Lagerfläche wird nicht vollständig genutzt.
+17 carbon footprint | CO2-Fußabdruck
++ Rail freight has a much smaller [[carbon footprint]] than road freight. || Schienengüterverkehr hat einen viel kleineren CO2-Fußabdruck als Straßengüterverkehr.
++ Customers can choose delivery options with a lower [[carbon footprint]]. || Kunden können Lieferoptionen mit geringerem CO2-Fußabdruck wählen.
+18 unique | einzigartig
++ The company offers a [[unique]] same-day delivery service. || Das Unternehmen bietet einen einzigartigen Lieferservice am selben Tag.
++ Each parcel receives a [[unique]] tracking number. || Jedes Paket erhält eine einmalige Sendungsnummer.
+19 touchpoint | Berührungspunkt, Kontaktpunkt
++ Delivery is an important [[touchpoint]] between the brand and the customer. || Die Lieferung ist ein wichtiger Kontaktpunkt zwischen Marke und Kunde.
++ Every [[touchpoint]] should give customers a positive experience. || Jeder Berührungspunkt sollte Kunden ein positives Erlebnis bieten.
+@S C | Delivery and payment
+20 aircraft | Flugzeug
++ The [[aircraft]] can carry up to 100 tonnes of cargo. || Das Flugzeug kann bis zu 100 Tonnen Fracht transportieren.
++ The airline has ordered twenty new [[aircraft]]. || Die Fluggesellschaft hat zwanzig neue Flugzeuge bestellt.
+21 bubble wrap | Luftpolsterfolie
++ Wrap the glasses in [[bubble wrap]] before packing them. || Wickeln Sie die Gläser vor dem Verpacken in Luftpolsterfolie.
++ Many companies are replacing [[bubble wrap]] with paper. || Viele Unternehmen ersetzen Luftpolsterfolie durch Papier.
+22 bulky | sperrig
++ [[Bulky]] items like sofas cost extra to deliver. || Für sperrige Artikel wie Sofas fallen zusätzliche Lieferkosten an.
++ The package was too [[bulky]] for the letterbox. || Das Paket war zu sperrig für den Briefkasten.
+23 by air | auf dem Luftweg
++ Urgent spare parts are sent [[by air]]. || Dringende Ersatzteile werden auf dem Luftweg versendet.
++ Shipping [[by air]] is fast but expensive. || Der Versand auf dem Luftweg ist schnell, aber teuer.
+24 by cable | per Kabel
++ Electricity is transported [[by cable]] from the wind farm. || Strom wird per Kabel vom Windpark transportiert.
++ Data is transmitted [[by cable]] between the two sites. || Daten werden per Kabel zwischen den beiden Standorten übertragen.
+25 by pipeline | per Pipeline
++ Natural gas is usually transported [[by pipeline]]. || Erdgas wird normalerweise per Pipeline transportiert.
++ The oil reaches the refinery [[by pipeline]]. || Das Öl erreicht die Raffinerie per Pipeline.
+26 by rail | per Bahn
++ Sending goods [[by rail]] is better for the environment. || Waren per Bahn zu versenden, ist besser für die Umwelt.
++ The containers continue their journey [[by rail]]. || Die Container setzen ihre Reise per Bahn fort.
+27 by road | auf der Straße
++ Most goods in Germany are transported [[by road]]. || Die meisten Waren in Deutschland werden auf der Straße transportiert.
++ Delivery [[by road]] takes about three days. || Die Lieferung auf der Straße dauert etwa drei Tage.
+28 by sea | auf dem Seeweg
++ Heavy machinery is usually shipped [[by sea]]. || Schwere Maschinen werden meist auf dem Seeweg verschifft.
++ Transport [[by sea]] is cheap but slow. || Der Transport auf dem Seeweg ist günstig, aber langsam.
+29 COD | Zahlung bei Lieferung, Nachnahme (cash on delivery) | alt: cash on delivery
++ The customer chose to pay [[COD]]. || Der Kunde entschied sich für Zahlung per Nachnahme.
++ [[Cash on delivery]] is still popular in some countries. || Nachnahme ist in manchen Ländern noch immer beliebt.
+30 compost | Kompost
++ The packaging can go on the [[compost]] after use. || Die Verpackung kann nach Gebrauch auf den Kompost.
++ Food waste from the canteen is turned into [[compost]]. || Essensreste aus der Kantine werden zu Kompost verarbeitet.
+31 consignment | Sendung, Lieferung | de: Warensendung
++ The [[consignment]] left the warehouse this morning. || Die Sendung hat das Lager heute Morgen verlassen.
++ We received a [[consignment]] of 500 laptops. || Wir haben eine Lieferung von 500 Laptops erhalten.
+32 conventional | herkömmlich, konventionell
++ Electric vans are replacing [[conventional]] delivery vehicles. || Elektrotransporter ersetzen herkömmliche Lieferfahrzeuge.
++ [[Conventional]] plastic packaging is hard to recycle. || Herkömmliche Kunststoffverpackungen sind schwer zu recyceln.
+33 courier | Kurier
++ The documents were sent by [[courier]]. || Die Dokumente wurden per Kurier verschickt.
++ A [[courier]] will collect the parcel tomorrow morning. || Ein Kurier holt das Paket morgen früh ab.
+34 CWO | Barzahlung bei Bestellung (cash with order) | alt: cash with order
++ New customers must pay [[CWO]]. || Neukunden müssen bei Bestellung bezahlen.
++ Our terms for first orders are [[cash with order]]. || Unsere Bedingungen für Erstbestellungen lauten Zahlung bei Bestellung.
+35 dangerous | gefährlich | de: allgemein
++ [[Dangerous]] goods must be clearly labelled. || Gefährliche Güter müssen deutlich gekennzeichnet sein.
++ It is [[dangerous]] to stack the boxes so high. || Es ist gefährlich, die Kisten so hoch zu stapeln.
+36 delivery | Lieferung | de: allgemein
++ Free [[delivery]] is available on orders over 50 euros. || Ab 50 Euro Bestellwert ist die Lieferung kostenlos.
++ The [[delivery]] was two days late. || Die Lieferung kam zwei Tage zu spät.
+37 destination | Zielort, Bestimmungsort
++ The goods arrived safely at their [[destination]]. || Die Waren kamen sicher an ihrem Bestimmungsort an.
++ Please enter the [[destination]] address. || Bitte geben Sie die Zieladresse ein.
+38 fragile | zerbrechlich
++ Please handle this package with care – it is [[fragile]]. || Bitte gehen Sie vorsichtig mit diesem Paket um – es ist zerbrechlich.
++ [[Fragile]] items need extra packaging. || Zerbrechliche Artikel brauchen zusätzliche Verpackung.
+39 freight forwarder | Spediteur | de: organisiert den Transport
++ Our [[freight forwarder]] organises all customs documents. || Unser Spediteur kümmert sich um alle Zolldokumente.
++ We hired a [[freight forwarder]] to ship the machines to Brazil. || Wir haben einen Spediteur beauftragt, die Maschinen nach Brasilien zu verschiffen.
+40 haulage | Gütertransport, Spedition
++ [[Haulage]] costs have risen because of higher fuel prices. || Die Kosten für den Gütertransport sind wegen höherer Kraftstoffpreise gestiegen.
++ He runs a small [[haulage]] company. || Er führt ein kleines Speditionsunternehmen.
+41 haulier | Transportunternehmer, Spediteur | de: Straßentransport
++ The [[haulier]] delivered the goods a day early. || Der Transportunternehmer lieferte die Ware einen Tag früher.
++ Many [[hauliers]] are struggling to find enough drivers. || Viele Spediteure haben Mühe, genug Fahrer zu finden.
+42 hazardous | gefährlich, gesundheitsgefährdend
++ [[Hazardous]] materials need special labels. || Gefährliche Stoffe benötigen spezielle Kennzeichnungen.
++ The chemicals are [[hazardous]] to health. || Die Chemikalien sind gesundheitsgefährdend.
+43 honeycomb | Wabe(n)
++ The cardboard has a [[honeycomb]] structure that makes it very strong. || Der Karton hat eine Wabenstruktur, die ihn sehr stabil macht.
++ [[Honeycomb]] paper is a green alternative to bubble wrap. || Wabenpapier ist eine umweltfreundliche Alternative zu Luftpolsterfolie.
+44 in bulk | lose, in großen Mengen
++ Supermarkets buy rice [[in bulk]]. || Supermärkte kaufen Reis in großen Mengen.
++ Grain is usually shipped [[in bulk]]. || Getreide wird meist lose verschifft.
+45 inflammable | leicht entzündlich
++ [[Inflammable]] liquids cannot be sent by air. || Leicht entzündliche Flüssigkeiten dürfen nicht per Luftfracht versendet werden.
++ The warehouse stores [[inflammable]] materials in a separate area. || Das Lager bewahrt leicht entzündliche Materialien in einem separaten Bereich auf.
+46 installment | Rate, Teilzahlung
++ Customers can pay for the sofa in monthly [[installments]]. || Kunden können das Sofa in monatlichen Raten bezahlen.
++ The first [[installment]] is due on delivery. || Die erste Rate ist bei Lieferung fällig.
+47 invaluable | unschätzbar
++ Reliable partners are [[invaluable]] in logistics. || Zuverlässige Partner sind in der Logistik unschätzbar wertvoll.
++ Real-time tracking data is [[invaluable]] for planning. || Echtzeit-Trackingdaten sind für die Planung von unschätzbarem Wert.
+48 jar | Glas, Gefäß | de: z. B. für Marmelade
++ Glass [[jars]] must be packed carefully. || Gläser müssen sorgfältig verpackt werden.
++ The honey is sold in small [[jars]]. || Der Honig wird in kleinen Gläsern verkauft.
+49 kraft paper | Kraftpapier
++ We now use [[kraft paper]] instead of plastic film. || Wir verwenden jetzt Kraftpapier statt Plastikfolie.
++ [[Kraft paper]] is strong and fully recyclable. || Kraftpapier ist reißfest und vollständig recycelbar.
+50 logistics service provider | Logistikdienstleister
++ We outsource warehousing to a [[logistics service provider]]. || Wir lagern die Lagerhaltung an einen Logistikdienstleister aus.
++ The [[logistics service provider]] handles deliveries across Europe. || Der Logistikdienstleister wickelt Lieferungen in ganz Europa ab.
+51 mold | Form (Gussform); Schimmel
++ The packaging is made in a [[mold]] from recycled paper. || Die Verpackung wird in einer Form aus Altpapier hergestellt.
++ Damp conditions can cause [[mold]] on cardboard boxes. || Feuchtigkeit kann Schimmel auf Kartons verursachen.
+52 molded pulp | Formfaser (gepresster Zellstoff)
++ Egg boxes are usually made of [[molded pulp]]. || Eierkartons bestehen meist aus Formfaser.
++ [[Molded pulp]] inserts protect electronic devices during shipping. || Einlagen aus Formfaser schützen Elektrogeräte beim Versand.
+53 non-perishable | haltbar, nicht verderblich
++ [[Non-perishable]] goods can be stored for months. || Haltbare Waren können monatelang gelagert werden.
++ Canned food is [[non-perishable]]. || Konserven sind nicht verderblich.
+54 packing peanuts | Verpackungschips (Füllmaterial)
++ [[Packing peanuts]] fill the empty space in the box. || Verpackungschips füllen den leeren Raum im Karton.
++ Starch-based [[packing peanuts]] dissolve in water. || Verpackungschips auf Stärkebasis lösen sich in Wasser auf.
+55 perishable | verderblich
++ [[Perishable]] goods must be delivered quickly. || Verderbliche Waren müssen schnell geliefert werden.
++ Fresh fish is highly [[perishable]]. || Frischer Fisch ist leicht verderblich.
+56 plant fiber | Pflanzenfaser
++ The new boxes are made from [[plant fiber]]. || Die neuen Kartons werden aus Pflanzenfaser hergestellt.
++ [[Plant fiber]] packaging can be composted at home. || Verpackungen aus Pflanzenfaser können zu Hause kompostiert werden.
+57 pie in the sky (idiom) | Luftschloss, unrealistischer Traum
++ Delivery by drone sounded like [[pie in the sky]] ten years ago. || Lieferung per Drohne klang vor zehn Jahren wie ein Luftschloss.
++ Without funding, the whole plan is just [[pie in the sky]]. || Ohne Finanzierung ist der ganze Plan nur ein unrealistischer Traum.
+58 premises | Geschäftsräume, Gelände
++ The goods are stored on our own [[premises]]. || Die Waren werden auf unserem eigenen Gelände gelagert.
++ Deliveries are only accepted at our main [[premises]]. || Lieferungen werden nur in unseren Hauptgeschäftsräumen angenommen.
+59 receipt of goods | Wareneingang
++ Payment is due within 30 days of [[receipt of goods]]. || Die Zahlung ist innerhalb von 30 Tagen nach Wareneingang fällig.
++ Please confirm [[receipt of goods]] by email. || Bitte bestätigen Sie den Wareneingang per E-Mail.
+60 recyclable | recycelbar
++ All our packaging is fully [[recyclable]]. || Alle unsere Verpackungen sind vollständig recycelbar.
++ Customers prefer brands that use [[recyclable]] materials. || Kunden bevorzugen Marken, die recycelbare Materialien verwenden.
+61 safety | Sicherheit (Schutz vor Unfällen/Gefahr)
++ Forklift drivers need [[safety]] training. || Gabelstaplerfahrer brauchen eine Sicherheitsschulung.
++ For [[safety]] reasons, visitors must stay behind the yellow line. || Aus Sicherheitsgründen müssen Besucher hinter der gelben Linie bleiben.
+62 security | Sicherheit (Schutz vor Diebstahl/Angriff)
++ The warehouse has 24-hour [[security]]. || Das Lager wird rund um die Uhr bewacht.
++ [[Security]] cameras monitor the loading area. || Überwachungskameras beobachten den Verladebereich.
+63 starch-based | auf Stärkebasis
++ [[Starch-based]] packaging breaks down naturally. || Verpackungen auf Stärkebasis bauen sich natürlich ab.
++ We switched to [[starch-based]] fillers last year. || Wir sind letztes Jahr auf Füllmaterial auf Stärkebasis umgestiegen.
+64 Styrofoam | Styropor
++ [[Styrofoam]] is light but bad for the environment. || Styropor ist leicht, aber schlecht für die Umwelt.
++ Many shops have stopped using [[Styrofoam]] boxes. || Viele Läden verwenden keine Styroporboxen mehr.
+65 to assure | versichern, zusichern | de: beteuern
++ We [[assure]] you that the goods will arrive undamaged. || Wir versichern Ihnen, dass die Ware unbeschädigt ankommt.
++ The supplier [[assured]] us that the delay was only temporary. || Der Lieferant versicherte uns, dass die Verzögerung nur vorübergehend sei.
+66 to check | prüfen, kontrollieren | de: überprüfen
++ Please [[check]] the goods on arrival. || Bitte prüfen Sie die Ware bei Ankunft.
++ Customs officers [[checked]] every container. || Zollbeamte kontrollierten jeden Container.
+67 to control | steuern, kontrollieren | de: lenken
++ A computer system [[controls]] the robots in the warehouse. || Ein Computersystem steuert die Roboter im Lager.
++ We need to [[control]] costs more strictly. || Wir müssen die Kosten strenger kontrollieren.
+68 to deliver | liefern | en: supply goods | de: Waren liefern
++ We [[deliver]] to all EU countries. || Wir liefern in alle EU-Länder.
++ The supplier failed to [[deliver]] the parts on time. || Der Lieferant hat die Teile nicht rechtzeitig geliefert.
+69 to deliver | zustellen, ausliefern | en: hand over to the recipient | de: Post, Pakete
++ The parcel was [[delivered]] to your neighbour. || Das Paket wurde bei Ihrem Nachbarn zugestellt.
++ Drivers [[deliver]] up to 200 parcels a day. || Fahrer stellen bis zu 200 Pakete am Tag zu.
+70 to dispatch | versenden, abfertigen | de: abschicken
++ Your order will be [[dispatched]] within 24 hours. || Ihre Bestellung wird innerhalb von 24 Stunden versendet.
++ We [[dispatch]] most orders on the same day. || Wir versenden die meisten Bestellungen noch am selben Tag.
+71 to ensure | sicherstellen
++ Good packaging [[ensures]] that the goods arrive safely. || Gute Verpackung stellt sicher, dass die Waren sicher ankommen.
++ Please [[ensure]] that the address is correct. || Bitte stellen Sie sicher, dass die Adresse korrekt ist.
+72 to request | anfordern, bitten um
++ You can [[request]] a free sample online. || Sie können online ein kostenloses Muster anfordern.
++ The customer [[requested]] express delivery. || Der Kunde bat um Expresslieferung.
+73 to require | erfordern, benötigen
++ Fragile goods [[require]] special packaging. || Zerbrechliche Waren erfordern eine spezielle Verpackung.
++ Exports outside the EU [[require]] customs documents. || Exporte außerhalb der EU benötigen Zolldokumente.
+74 to ship | versenden, verschiffen | de: auch per Schiff
++ We [[ship]] to over 50 countries. || Wir versenden in über 50 Länder.
++ The containers were [[shipped]] from Shanghai to Hamburg. || Die Container wurden von Shanghai nach Hamburg verschifft.
+75 to supply | beliefern, liefern | de: jemanden beliefern
++ The company [[supplies]] car manufacturers with parts. || Das Unternehmen beliefert Autohersteller mit Teilen.
++ Who [[supplies]] your raw materials? || Wer liefert Ihre Rohstoffe?
+76 tub | Wanne, Behälter, Becher
++ Ice cream is sold in plastic [[tubs]]. || Eis wird in Plastikbechern verkauft.
++ The paint comes in a five-litre [[tub]]. || Die Farbe gibt es in einem Fünf-Liter-Behälter.
+77 tube | Röhre, Tube
++ The posters are shipped in cardboard [[tubes]]. || Die Poster werden in Pappröhren versendet.
++ Toothpaste is sold in a [[tube]]. || Zahnpasta wird in einer Tube verkauft.
+78 toxic | giftig
++ [[Toxic]] chemicals require special transport permits. || Giftige Chemikalien benötigen besondere Transportgenehmigungen.
++ Burning plastic releases [[toxic]] gases. || Beim Verbrennen von Kunststoff werden giftige Gase freigesetzt.
+79 uneconomical | unwirtschaftlich
++ Sending small orders by air is [[uneconomical]]. || Kleine Bestellungen per Luftfracht zu versenden, ist unwirtschaftlich.
++ Half-empty trucks are highly [[uneconomical]]. || Halbleere Lkw sind äußerst unwirtschaftlich.
+80 urgent | dringend
++ This order is [[urgent]] – please send it today. || Diese Bestellung ist dringend – bitte heute versenden.
++ There is an [[urgent]] need for more drivers. || Es besteht dringender Bedarf an mehr Fahrern.
+81 valuable | wertvoll
++ [[Valuable]] items should be insured. || Wertvolle Gegenstände sollten versichert werden.
++ The shipment contains [[valuable]] electronic equipment. || Die Sendung enthält wertvolle elektronische Geräte.
+82 vehicle | Fahrzeug
++ The company is replacing its diesel [[vehicles]] with electric ones. || Das Unternehmen ersetzt seine Dieselfahrzeuge durch Elektrofahrzeuge.
++ Each delivery [[vehicle]] is tracked by GPS. || Jedes Lieferfahrzeug wird per GPS verfolgt.
+83 vessel | Schiff, Gefäß | de: meist Schiff
++ The [[vessel]] carries up to 20,000 containers. || Das Schiff transportiert bis zu 20.000 Container.
++ Modern [[vessels]] use less fuel thanks to slow steaming. || Moderne Schiffe verbrauchen dank Langsamfahrt weniger Kraftstoff.
+84 warehousing | Lagerhaltung, Lagerung
++ [[Warehousing]] costs are rising due to a lack of space. || Die Kosten für Lagerhaltung steigen wegen Platzmangel.
++ We offer [[warehousing]] and distribution services. || Wir bieten Lagerungs- und Vertriebsdienstleistungen an.
+</script>
+
+<script type="text/plain" id="tests">
+@T 01A | Germany's economy: slow growth, high costs
+Germany's [[economy|01A14]] has had a difficult year. According to the latest figures, [[GDP|01A19]] grew by just 0.3 percent, while the [[inflation rate|01A22]] stayed above the central bank's target. Many households complain about the rising [[cost of living|01A6]], and their [[disposable income|01A8]] has hardly increased.
+Traditional industries are under pressure. The [[automotive|01A1]] sector, which employs hundreds of thousands of people, is struggling with the switch to electric cars, and high interest rates have hit [[construction|01A5]] hard. Even [[real estate|01A25]] prices, which rose for more than a decade, have started to fall.
+The government faces a dilemma. It wants to invest in roads, railways and digital [[infrastructure|01A23]], but it also has to keep the [[budget deficit|01A2]] under control. Cutting investment now, however, could be a [[false economy|01A18]]: many [[economists|01A13]] warn that poor infrastructure will cost far more in the long run.
+There is some good news, too. The [[unemployment rate|01A29]] remains low, and a weaker [[exchange rate|01A17]] has made German exports cheaper abroad. Large manufacturers are also using [[economies of scale|01A12]] to keep their prices attractive.
+@T 01B | From boom to bust – and back again
+Economies rarely grow in a straight line. Instead, they move through [[peaks and troughs|01B48]], a pattern economists call the business cycle. In a boom, companies [[flourish|01B56]], banks lend freely and many firms become [[bloated|01B33]] with staff and costs they do not really need.
+Sooner or later, the bubble bursts. When banks suddenly stop lending, a [[credit crunch|01B37]] can follow, as it did in 2008. Consumers become [[anxious|01B31]] about their jobs, spending falls and the economy begins to [[shrink|01B58]]. For many highly indebted firms, [[bankruptcy|01B32]] is the result, and the [[knock-on effects|01B43]] spread to suppliers and banks.
+Some economists argue that such downturns are [[inevitable|01B41]]. In their view, a recession helps to [[weed out|01B62]] weak companies and leaves the survivors [[lean and mean|01B45]]. Others believe governments should act early, for example by raising interest rates to [[curb|01B55]] inflation before prices get out of control.
+Despite all the [[doom and gloom|01B40]] in the headlines, the cycle eventually turns again. The real challenge for policymakers is to create [[sustained|01B53]] growth rather than another short-lived boom.
+@T 01C | Green shoots after a hard winter
+After two years of stagnation, economists are seeing the first [[green shoots|01C68]] of recovery. Orders for machinery have started to [[rise|01C85]] again, and in some sectors demand has begun to [[soar|01C86]]. Energy companies even received a [[windfall|01C90]] when prices jumped last year.
+To [[boost|01C76]] growth further, the government plans to cut taxes for small firms. At the same time, it wants to [[raise|01C83]] spending on education, arguing that good schools [[sow the seeds|01C87]] of future prosperity. Successful companies are encouraged to [[plough back|01C81]] their profits into research instead of paying out high dividends.
+Not everyone benefits equally, however. Critics point out that income [[inequality|01C69]] has grown and that child [[poverty|01C70]] remains high in some regions. They call for a [[root and branch|01C72]] reform of the tax system and for stricter [[regulations|01C71]], which the authorities must then [[enforce|01C80]].
+Whether the recovery lasts will depend on investment. If sales [[decline|01C78]] again, many companies may have to [[prune back|01C82]] their expansion plans once more.
+@T 02A | How a start-up launched a bestseller
+When the young [[entrepreneur|02A6]] Lena Brandt founded her company, she knew that [[competition|02A2]] in the drinks market was fierce. To [[stand out from|02A41]] the big brands, her product needed a clear [[USP|02A43]]: a sugar-free lemonade made only from regional fruit.
+Before the [[product launch|02A22]], her small team had to work to a [[tight deadline|02A29]]. They [[conceptualized|02A33]] the packaging, tested different prices and prepared a sales [[pitch|02A1]] for supermarket buyers. Lena was convinced that the design would [[appeal to|02A30]] young, health-conscious customers.
+The company [[launched|02A38]] the drink at a trade [[fair|02A9]] in Cologne. Visitors received free samples and other [[promotional items|02A24]], and within weeks the lemonade was available in more than 200 [[outlets|02A19]]. Low [[overheads|02A20]] – the team worked from small [[premises|02A21]] near the station – helped to keep prices [[competitive|02A3]].
+Today, Lena says that good marketing is [[vital|02A44]] for success. "You have to [[seize|02A40]] every opportunity," she explains, "and [[ensure|02A35]] that the product always keeps its [[promise|02A23]]."
+@T 02B | Personalized advertising: clever or creepy?
+In the [[pre-digital era|02B57]], a company placed an [[advertisement|02B45]] in a newspaper and hoped that the right people would see it. Today, [[advertising|02B46]] works very differently. Every click, like and search adds to our [[digital footprint|02B54]], and companies use this data to [[profile|02B70]] their customers.
+Websites use [[cookies|02B51]] to follow users across the internet, often on several [[devices|02B52]] at once. With the help of [[sophisticated|02B58]] software, advertisers can [[tailor|02B73]] their messages to each person and reach their target [[audience|02B47]] with great [[precision|02B56]].
+Many consumers, however, find this kind of marketing [[intrusive|02B55]]. They receive [[unsolicited|02B76]] emails and are [[flooded|02B66]] with ads that seem to know everything about them. Data protection has therefore become a growing [[concern|02B48]].
+Experts [[estimate|02B65]] that companies collect [[vast|02B78]] amounts of personal data every day. Interestingly, users often [[volunteer|02B74]] much of this information themselves – simply by posting [[content|02B50]] on social media.
+@T 02C | Knowing your customer
+No company can sell to everyone. That is why market [[segmentation|02C86]] is one of the first steps in any marketing plan. Firms divide the market into groups and then [[target|02C88]] the groups that offer the best opportunities.
+On the [[consumer market|02C80]], companies sell directly to private households. Here, factors such as age, lifestyle and [[disposable income|02C83]] play an important role. A [[consumer|02C79]] who earns a lot may be interested in luxury goods, while a student will usually look for cheaper options.
+The [[industrial market|02C84]] works differently. A machine manufacturer, for example, sells to other businesses rather than to the [[end user|02C82]]. In this market, every [[purchase|02C85]] is usually large and carefully planned, and the personal relationship between a [[supplier|02C87]] and its business [[customer|02C81]] is often decisive.
+@T 03A | Inside the robot warehouse
+In a huge warehouse near Leipzig, hundreds of orange robots glide along the [[aisles|03A1]]. Instead of workers walking for kilometres every day, the robots lift entire [[shelves|03A13]] and carry them to [[stationary|03A14]] workers, who then [[pick|03A17]] the items for each order.
+The finished parcels travel on a [[conveyor belt|03A2]] to the loading area, where trucks are waiting for their next [[load|03A9]]. Because the robots rarely break down, [[down time|03A3]] has fallen sharply. For the company, this warehouse is the [[processing heart|03A11]] of its entire network.
+The reason for this [[root-and-branch change|03A12]] is simple. In a [[tight labor market|03A15]], it is difficult to find enough staff, and wages continue to [[rise|03A19]]. Online [[grocery|03A7]] orders in particular have grown quickly, and many logistics firms see Germany as [[fertile ground|03A5]] for automation.
+New problems [[arise|03A16]], however. Critics warn that automation could push more people into the [[gig economy|03A6]]. Managers, on the other hand, say that the technology has now [[taken root|03A20]]. "In this business," one of them explains, "you always have to [[keep on your toes|03A8]]."
+@T 03B | The race to greener logistics
+Transport is responsible for a large share of all [[greenhouse gas emissions|03B2]] in Europe, and customers increasingly want to know the [[carbon footprint|03B17]] of the goods they buy. For logistics companies, cutting [[carbon emissions|03B1]] has therefore become [[crucial|03B10]].
+Shipping lines have introduced [[slow steaming|03B12]]: by reducing its speed, a container ship uses much less fuel. Airlines are trying to [[utilize|03B16]] their [[cargo|03B5]] space more efficiently, and rail companies hope that more [[freight|03B4]] will move from road to rail. Online retailers, meanwhile, let their customers [[track|03B6]] each parcel and choose greener delivery options.
+But green supply chains are also [[vulnerable|03B11]]. During last summer's [[drought|03B14]], water levels on the Rhine fell so low that ships could carry only half their usual loads. Events like this can [[disrupt|03B7]] deliveries for weeks, and experts warn that inland shipping is especially [[susceptible|03B13]] to climate change.
+Despite these problems, the trend is clear. Demand for green transport is expected to [[triple|03B8]] by 2035, and the boom has already [[spawned|03B15]] dozens of new start-ups. Every delivery, they argue, is a [[touchpoint|03B19]] where companies can show customers that they take sustainability seriously.
+@T 03C | Packing the perfect parcel
+Anyone who sells online knows that getting the product to its [[destination|03C37]] is only half the job. [[Fragile|03C38]] goods such as glass [[jars|03C48]] need careful packaging, while [[bulky|03C22]] items like furniture are expensive to send and often require a special [[courier|03C33]].
+For years, the standard solution was plastic: [[bubble wrap|03C21]], [[Styrofoam|03C64]] boxes and [[packing peanuts|03C54]]. Today, more and more companies are switching to [[recyclable|03C60]] materials such as [[kraft paper|03C49]], which can simply go on the [[compost|03C30]] after use.
+Choosing the right means of transport is just as important. Heavy machinery is usually shipped [[by sea|03C28]], urgent spare parts travel [[by air|03C23]], and [[perishable|03C55]] food must reach the shops within hours. Many firms therefore work with a [[freight forwarder|03C39]] who organizes the whole journey.
+Finally, there is the question of payment. Some customers prefer to pay [[COD|03C29]], while others pay in monthly [[installments|03C46]]. Either way, the seller must [[ensure|03C71]] that the goods are [[dispatched|03C70]] on time and that the customer can confirm [[receipt of goods|03C59]] without any problems.
+</script>
+
+<script>
+(function(){
+"use strict";
+/* ---------- data ---------- */
+function parseData(txt){
+  const lessons=[]; let L=null,S=null,E=null;
+  txt.split("\n").forEach(raw=>{
+    const line=raw.trim(); if(!line) return;
+    if(line.startsWith("@L ")){ const p=line.slice(3).split(" | "); L={no:p[0],name:p[1],sections:[]}; lessons.push(L); return; }
+    if(line.startsWith("@S ")){ const p=line.slice(3).split(" | "); S={key:p[0],name:p[1],entries:[],lesson:L,id:L.no+p[0]}; L.sections.push(S); return; }
+    if(line.startsWith("+ ")){ const p=line.slice(2).split(" || "); const m=p[0].match(/\[\[(.+?)\]\]/); E.ex.push({en:p[0],de:p[1]||"",ans:m?m[1]:""}); return; }
+    const m=line.match(/^(\d+)\s+(.*)$/); const parts=m[2].split(" | ");
+    E={num:+m[1],raw:parts[0],de:parts[1],opt:{},ex:[],sec:S};
+    parts.slice(2).forEach(p=>{const mm=p.match(/^(\w+):\s*(.*)$/); if(mm) E.opt[mm[1]]=mm[2];});
+    E.id=S.id+E.num; S.entries.push(E);
+  });
+  return lessons;
+}
+const LESSONS=parseData(document.getElementById("vocab").textContent);
+const ENTRIES=[], BYID={}, SECTIONS=[];
+LESSONS.forEach(L=>L.sections.forEach(S=>{SECTIONS.push(S); S.entries.forEach(e=>{ENTRIES.push(e);BYID[e.id]=e;});}));
+
+/* ---------- normalisation ---------- */
+const EN_FILL=/\b(someone|something|somebody|sb|sth)\b/g;
+function normEN(s){
+  s=(s||"").toLowerCase().replace(/[’`]/g,"'").replace(/\(idiom\)/g,"").replace(/[-–—_/]/g," ")
+   .replace(/[^a-z0-9' ]/g," ").replace(EN_FILL," ").replace(/\s+/g," ").trim();
+  s=s.replace(/^to /,"");
+  return s;
+}
+const DE_DROP=new Set(["der","die","das","den","dem","des","ein","eine","einen","einem","einer","eines","sich","jdn","jdm","jmd","jmdn","jmdm","etw","jemanden","jemandem","etwas","von","an","bei","um","mit","fuer","auf","zu","ueber","in","aus","vor","im","am","zum","zur"]);
+function deFold(s){return (s||"").toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss");}
+function normDE(s){
+  s=deFold(s).replace(/\/in\b/g,"").replace(/[-–—/]/g," ").replace(/[^a-z0-9 ]/g," ");
+  const words=s.split(/\s+/).filter(w=>w&&!DE_DROP.has(w));
+  return words.join("");
+}
+function normCloze(s){return (s||"").toLowerCase().replace(/[’`]/g,"'").replace(/[-–—]/g," ").replace(/[^a-z0-9' ]/g," ").replace(/\s+/g," ").trim();}
+function parenVariants(part){
+  // "Aktie(n)" -> Aktie, Aktien ; "Sicherheit (Schutz …)" -> Sicherheit
+  const out=[];
+  out.push(part.replace(/\s*\([^)]*\)/g,""));
+  out.push(part.replace(/\s+\([^)]*\)/g,"").replace(/[()]/g,""));
+  out.push(part.replace(/[()]/g,""));
+  return out;
+}
+function enDisplay(e){return e.raw.replace(/\s+\d$/,"").replace(/\s*\(idiom\)/,"");}
+ENTRIES.forEach(e=>{
+  e.idiom=/\(idiom\)/.test(e.raw);
+  e.sense=(e.raw.match(/\s(\d)$/)||[])[1]||"";
+  e.en=enDisplay(e);
+  const ek=new Set();
+  e.en.split(/\s+–\s+|,\s+/).forEach(p=>parenVariants(p).forEach(v=>{const n=normEN(v); if(n) ek.add(n);}));
+  if(e.opt.alt) e.opt.alt.split(";").forEach(a=>{const n=normEN(a); if(n) ek.add(n);});
+  e.enKeys=[...ek];
+  e.enBase=normEN(e.en.split(/\s+–\s+|,\s+/)[0].replace(/\s*\([^)]*\)\s*/g," "));
+  const dk=new Set();
+  const src=e.opt.acc? e.opt.acc.split(";") : e.de.split(/;|,(?![^(]*\))|\s+–\s+|\s+\/\s+/);
+  src.forEach(p=>{p=p.trim(); const forms=/\/in\b/.test(p)?[p,p.replace(/\/in\b/g,"in")]:[p];
+    forms.forEach(f=>parenVariants(f).forEach(v=>{const n=normDE(v); if(n&&n.length>1) dk.add(n);}));});
+  e.deKeys=[...dk];
+});
+const EN_IDX=new Map(), DE_IDX=new Map();
+ENTRIES.forEach(e=>{
+  e.enKeys.forEach(k=>{if(!EN_IDX.has(k)) EN_IDX.set(k,[]); EN_IDX.get(k).push(e);});
+  e.deKeys.forEach(k=>{if(!DE_IDX.has(k)) DE_IDX.set(k,[]); DE_IDX.get(k).push(e);});
+});
+
+function lev(a,b){
+  if(a===b) return 0; const m=a.length,n=b.length; if(!m) return n; if(!n) return m;
+  let prev=Array.from({length:n+1},(_,i)=>i), cur=new Array(n+1);
+  for(let i=1;i<=m;i++){cur[0]=i;for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}[prev,cur]=[cur,prev];}
+  return prev[n];
+}
+function tol(len){return len<=3?0:len<=7?1:2;}
+function near(inp,keys){return keys.some(k=>lev(inp,k)<=tol(k.length));}
+
+function checkTyped(e,dir,input){
+  if(dir==="en-de"){
+    const inp=normDE(input); if(!inp) return {res:"wrong"};
+    if(e.deKeys.includes(inp)) return {res:"correct"};
+    if(near(inp,e.deKeys)) return {res:"almost"};
+    const o=(DE_IDX.get(inp)||[]).find(x=>x!==e && x.enBase===e.enBase);
+    if(o) return {res:"also",other:o};
+    return {res:"wrong"};
+  }
+  const inp=normEN(input); if(!inp) return {res:"wrong"};
+  if(e.enKeys.includes(inp)) return {res:"correct"};
+  if(near(inp,e.enKeys)) return {res:"almost"};
+  const o=(EN_IDX.get(inp)||[]).find(x=>x.enBase!==e.enBase && x.deKeys.some(k=>e.deKeys.includes(k)));
+  if(o) return {res:"also",other:o};
+  return {res:"wrong"};
+}
+function checkCloze(e,ex,input){
+  const a=normCloze(ex.ans), inp=normCloze(input);
+  if(!inp) return {res:"wrong"};
+  if(inp===a) return {res:"correct"};
+  if(lev(inp,a)<=tol(a.length)) return {res:"almost"};
+  if(e.enKeys.includes(normEN(input))) return {res:"almost",form:true};
+  return {res:"wrong"};
+}
+
+/* ---------- state + storage ---------- */
+const LS_KEY="bvt-progress-v1";
+const DEFAULTS={mode:"mix",dir:"mix",size:20,scope:SECTIONS.map(s=>s.id)};
+function normGame(g){g=g||{};const b=g.best||{},s=g.streak||{},d=g.daily||{};
+  return {tests:(g.tests&&typeof g.tests==="object")?g.tests:{},xp:+g.xp||0,best:{score:+b.score||0,combo:+b.combo||0},streak:{count:+s.count||0,last:s.last==null?-1:+s.last},daily:{day:d.day==null?-1:+d.day,xp:+d.xp||0}};}
+let state={cards:{},settings:{...DEFAULTS},game:normGame(),updatedAt:0};
+try{const raw=localStorage.getItem(LS_KEY); if(raw){const d=JSON.parse(raw); if(d&&d.cards) state={cards:d.cards,settings:{...DEFAULTS,...(d.settings||{})},game:normGame(d.game),updatedAt:d.updatedAt||0};}}catch(e){}
+function saveLocal(){try{localStorage.setItem(LS_KEY,JSON.stringify(state));}catch(e){}}
+function touch(){state.updatedAt=Date.now(); saveLocal(); queueWrite(1200);}
+
+const syncEl=document.getElementById("sync");
+function setSync(text,s){syncEl.dataset.s=s; syncEl.querySelector("span").textContent=text;}
+const T_OK="In deinem Konto gespeichert", T_LOCAL="Nur in diesem Browser gespeichert";
+let dbRef=null, writing=false, dirty=false, wTimer=null, retried=false, remotePending=null;
+function withTimeout(p,ms){return Promise.race([p,new Promise((_,rej)=>setTimeout(()=>rej({code:"timeout"}),ms))]);}
+function queueWrite(delay){ if(!dbRef) return; clearTimeout(wTimer); wTimer=setTimeout(flush,delay); }
+async function flush(){
+  if(!dbRef) return; if(writing){dirty=true;return;}
+  writing=true; setSync("Speichere…","pending");
+  try{ await dbRef.set({v:1,cards:state.cards,settings:state.settings,game:state.game,updatedAt:state.updatedAt}); setSync(T_OK,"ok"); retried=false; }
+  catch(e){
+    if(e&&e.code==="unavailable"&&!retried){retried=true; setTimeout(()=>queueWrite(0),1000+Math.random()*1500);}
+    else setSync("Speichern fehlgeschlagen – lokal gesichert","warn");
+  }
+  writing=false; if(dirty){dirty=false; flush();}
+}
+function adopt(d){
+  state={cards:d.cards||{},settings:{...DEFAULTS,...(d.settings||{})},game:normGame(d.game),updatedAt:d.updatedAt||0};
+  saveLocal(); if(!document.getElementById("home").hidden) renderHome();
+}
+async function initSync(){
+  setSync("Verbinde…","pending");
+  try{
+    const c=window.claude; if(!c||typeof c.use!=="function"){setSync(T_LOCAL,"local");return;}
+    const [db,user]=await Promise.all([c.use("db"),c.use("user")]);
+    if(!db||!user){setSync(T_LOCAL,"local");return;}
+    const uid=await user.id(); if(!uid){setSync(T_LOCAL,"local");return;}
+    const ref=db.doc("data/users/"+uid+"/progress");
+    const snap=await withTimeout(ref.get(),10000);
+    dbRef=ref;
+    const remote=snap.exists?snap.data():null;
+    if(remote&&(remote.updatedAt||0)>(state.updatedAt||0)) adopt(remote);
+    else if(state.updatedAt&&(!remote||(remote.updatedAt||0)<state.updatedAt)) queueWrite(0);
+    setSync(T_OK,"ok");
+    ref.onSnapshot(s=>{
+      if(!s.exists||s.metadata.hasPendingWrites) return;
+      const d=s.data(); if((d.updatedAt||0)<=state.updatedAt) return;
+      if(sess) remotePending=d; else adopt(d);
+    },()=>setSync("Verbindung unterbrochen – lokal gesichert","warn"));
+  }catch(e){ dbRef=null; setSync(T_LOCAL,"local"); }
+}
+
+/* ---------- scheduling ---------- */
+function today(){const d=new Date(); return Math.floor((d.getTime()-d.getTimezoneOffset()*60000)/86400000);}
+function getCard(id){const c=state.cards[id]; return c?{r:c[0],i:c[1],e:c[2],d:c[3],l:c[4]}:null;}
+function putCard(id,c){state.cards[id]=[c.r,c.i,c.e,c.d,c.l];}
+function schedule(c,g,t){
+  c=c?{...c}:{r:0,i:0,e:250,d:t,l:0};
+  if(g===1){c.l++;c.r=0;c.i=0;c.e=Math.max(130,c.e-20);c.d=t;return c;}
+  if(g===2){c.i=c.r===0?1:Math.max(c.i+1,Math.round(c.i*1.2));c.e=Math.max(130,c.e-15);}
+  if(g===3){c.i=c.r===0?1:c.r===1?3:Math.max(c.i+1,Math.round(c.i*c.e/100));}
+  if(g===4){c.i=c.r===0?3:c.r===1?6:Math.max(c.i+2,Math.round(c.i*c.e/100*1.3));c.e+=15;}
+  c.r++; c.d=t+c.i; return c;
+}
+function status(id){const c=getCard(id); if(!c) return "n"; return c.i>=7?"k":"l";}
+function ivlText(g,id){const c=schedule(getCard(id),g,today()); return g===1?"heute":c.i===1?"1 Tag":c.i+" Tage";}
+
+/* ---------- helpers ---------- */
+const $=id=>document.getElementById(id);
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function exHTML(ex){return '<div class="ex"><span class="en">'+esc(ex.en).replace(/\[\[(.+?)\]\]/g,"<mark>$1</mark>")+'</span><span class="de">'+esc(ex.de)+'</span></div>';}
+function plain(s){return s.replace(/\[\[(.+?)\]\]/g,"$1");}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function ref(e){return e.sec.lesson.no+"·"+e.sec.key+"·"+e.num;}
+function show(view){["home","session","summary","list","test"].forEach(v=>$(v).hidden=v!==view); window.scrollTo(0,0);}
+
+/* ---------- speech ---------- */
+let tts=null;
+const SPK='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
+function spkBtn(text){return tts?'<button class="speak" data-say="'+esc(text)+'" aria-label="Vorlesen" title="Vorlesen">'+SPK+'</button>':"";}
+document.addEventListener("click",ev=>{const b=ev.target.closest("[data-say]"); if(b&&tts){tts.speak(b.dataset.say,{language:"en"}).catch(()=>{});}});
+
+/* ---------- Waldi + game ---------- */
+const DOG='<svg class="dog" viewBox="0 0 180 112" aria-hidden="true">'+
+ '<ellipse cx="92" cy="104" rx="70" ry="5" fill="#0f1b2d" opacity=".08"/>'+
+ '<g class="tail"><path d="M36 58 Q20 48 12 30" stroke="#8a4b22" stroke-width="7" fill="none" stroke-linecap="round"/></g>'+
+ '<rect x="44" y="76" width="11" height="24" rx="5.5" fill="#8a4b22"/><rect x="60" y="76" width="11" height="24" rx="5.5" fill="#a65c2b"/>'+
+ '<rect x="104" y="76" width="11" height="24" rx="5.5" fill="#8a4b22"/><rect x="120" y="76" width="11" height="24" rx="5.5" fill="#a65c2b"/>'+
+ '<ellipse cx="86" cy="64" rx="56" ry="22" fill="#b5652f"/>'+
+ '<ellipse cx="90" cy="74" rx="42" ry="10" fill="#d08b52"/>'+
+ '<path d="M124 50 Q131 62 140 54" stroke="#0e9f6e" stroke-width="5" fill="none" stroke-linecap="round"/>'+
+ '<path d="M131 58 l-4.5 5 4.5 15 4.5-15z" fill="#0b7fd1"/><circle cx="131" cy="58" r="3" fill="#0b7fd1"/>'+
+ '<g class="head">'+
+  '<ellipse cx="142" cy="40" rx="23" ry="20" fill="#b5652f"/>'+
+  '<ellipse cx="163" cy="49" rx="15" ry="10" fill="#c87a40"/>'+
+  '<ellipse cx="175" cy="45.5" rx="5" ry="4" fill="#24150c"/>'+
+  '<path class="tongue" d="M161 57 q3 10 8 1 z" fill="#ef6f86"/>'+
+  '<path d="M158 56 Q165 60 172 54" stroke="#24150c" stroke-width="2" fill="none" stroke-linecap="round"/>'+
+  '<circle cx="150" cy="34" r="3.6" fill="#24150c"/><circle cx="151.2" cy="32.8" r="1.1" fill="#fff"/>'+
+  '<path d="M145 27 q5 -4 10 -1" stroke="#7a4120" stroke-width="2" fill="none" stroke-linecap="round"/>'+
+  '<path class="ear" d="M131 24 Q114 28 118 58 Q128 62 136 42 Z" fill="#743c1b"/>'+
+ '</g></svg>';
+document.querySelectorAll(".dog-wrap").forEach(w=>w.innerHTML=DOG);
+const TITLES=["Praktikant/in","Werkstudent/in","Trainee","Junior Analyst","Analyst","Senior Analyst","Teamleitung","Abteilungsleitung","Prokurist/in","Geschäftsführung","Vorstand","Aufsichtsratsvorsitz"];
+const DAILY_GOAL=100;
+function levelInfo(xp){let lvl=1,need=150,rest=xp; while(rest>=need){rest-=need;lvl++;need=150+100*(lvl-1);} return {lvl,into:rest,need,title:TITLES[Math.min(lvl,TITLES.length)-1]+(lvl>TITLES.length?" ★"+(lvl-TITLES.length):"")};}
+function curStreak(){const s=state.game.streak; return s.last>=today()-1?s.count:0;}
+function dailyXP(){const d=state.game.daily; return d.day===today()?d.xp:0;}
+function pick(a){return a[Math.floor(Math.random()*a.length)];}
+function say(id,text){const el=$(id); el.innerHTML="<b>Waldi:</b> "+esc(text); el.classList.remove("pop"); void el.offsetWidth; el.classList.add("pop");}
+const moodTimers={};
+function mood(id,m,back){const el=$(id); el.dataset.mood=m; clearTimeout(moodTimers[id]); if(back) moodTimers[id]=setTimeout(()=>{el.dataset.mood="idle";},back);}
+function renderPlayer(due){
+  const g=state.game, L=levelInfo(g.xp), st=curStreak(), dx=dailyXP();
+  $("lvlNo").textContent=L.lvl; $("lvlTitle").textContent=L.title;
+  $("lvlXP").textContent=L.into+" / "+L.need+" XP";
+  $("xpFill").style.width=(L.into/L.need*100)+"%";
+  $("chStreak").textContent=st+(st===1?" Tag":" Tage");
+  $("chDaily").textContent=Math.min(dx,DAILY_GOAL)+" / "+DAILY_GOAL+" XP";
+  $("chDailyBar").style.width=Math.min(100,dx/DAILY_GOAL*100)+"%";
+  $("chHS").textContent=g.best.score; $("chCombo").textContent=g.best.combo;
+  let msg;
+  if(!g.xp) msg="Wuff! Ich bin Waldi und begleite dich durchs Lernen. Starte eine Runde – für jede richtige Antwort gibt's XP.";
+  else if(dx>=DAILY_GOAL) msg="Tagesziel geschafft! Ich bin richtig stolz auf dich. Noch eine Runde für den Highscore?";
+  else if(st>=2&&state.game.streak.last<today()) msg=st+" Tage am Stück – lass die Serie heute nicht abreißen!";
+  else if(due>0) msg=due+(due===1?" Wort wartet":" Wörter warten")+" auf dich. Noch "+(L.need-L.into)+" XP bis zur nächsten Beförderung!";
+  else msg="Noch "+(DAILY_GOAL-dx)+" XP bis zum Tagesziel. Ich hab Zeit, wenn du Zeit hast.";
+  $("bubbleH").innerHTML="<b>Waldi:</b> "+esc(msg);
+  $("dogH").dataset.mood=dx>=DAILY_GOAL?"happy":"idle";
+}
+function addXP(n){
+  if(n<=0) return;
+  const g=state.game, before=levelInfo(g.xp).lvl, t=today();
+  g.xp+=n; if(g.daily.day!==t) g.daily={day:t,xp:0}; g.daily.xp+=n;
+  if(sess) sess.points+=n;
+  const after=levelInfo(g.xp); if(after.lvl>before) levelUp(after);
+}
+let toastTimer=null;
+function levelUp(L){
+  $("toastTitle").textContent="Level "+L.lvl+": "+L.title;
+  $("toastSub").textContent="Wuff wuff! Du wurdest befördert.";
+  const t=$("toast"); t.hidden=false; t.style.animation="none"; void t.offsetWidth; t.style.animation="";
+  clearTimeout(toastTimer); toastTimer=setTimeout(()=>{t.hidden=true;},4000);
+}
+function resetStrip(){
+  $("pts").textContent="0"; $("combo").hidden=true; $("dogS").dataset.mood="idle";
+  say("bubbleS",pick(["Auf geht's! Ich drück dir die Pfoten.","Los, lass uns ein paar Vokabeln verbuchen!","Ich bin bereit – du auch?"]));
+}
+function updateStrip(pts){
+  $("pts").textContent=sess.points;
+  const cb=$("combo"); if(sess.combo>=2){cb.hidden=false; cb.textContent="Combo ×"+sess.combo;} else cb.hidden=true;
+  if(pts>0){const f=$("float"); f.textContent="+"+pts; f.classList.remove("go"); void f.offsetWidth; f.classList.add("go");}
+}
+function dogReact(res,combo){
+  if(res==="correct"){
+    mood("dogS",combo>=5?"cheer":"happy",1600);
+    if(combo>=3) say("bubbleS",pick([combo+"er-Serie! Mein Schwanz wedelt schon auf Hochtouren.","Combo ×"+combo+"! Du bist nicht zu stoppen.",combo+" in Folge – das ist Vorstandsniveau!"]));
+    else say("bubbleS",pick(["Wuff! Gebucht.","Sauber, das sitzt!","Stark – weiter so!","Volltreffer!","Das gibt Rendite!"]));
+  } else if(res==="almost"){
+    mood("dogS","think",1600);
+    say("bubbleS",pick(["Fast! Schau dir die Schreibweise noch mal an.","Knapp daneben – aber schon fast drin.","Kleiner Buchungsfehler, passiert den Besten."]));
+  } else if(res==="also"){
+    mood("dogS","think",1600);
+    say("bubbleS","Stimmt auch! Aber ich hatte an ein anderes Wort gedacht.");
+  } else {
+    mood("dogS","sad",1800);
+    say("bubbleS",pick(["Nicht schlimm – das Wort kommt gleich noch mal.","Kopf hoch, aus Fehlern lernt man.","Wuff… das merken wir uns zusammen!"]));
+  }
+}
+function gameFinish(vals,c){
+  const g=state.game, t=today(), complete=sess.done>=sess.total&&vals.length>0;
+  if(complete) addXP(20);
+  if(vals.length){ if(g.streak.last===t-1) g.streak.count++; else if(g.streak.last!==t) g.streak.count=1; g.streak.last=t; }
+  const newHS=sess.points>0&&sess.points>g.best.score; if(newHS) g.best.score=sess.points;
+  if(sess.bestCombo>g.best.combo) g.best.combo=sess.bestCombo;
+  touch();
+  const L=levelInfo(g.xp), q=vals.length?c/vals.length:0;
+  $("sumXP").textContent="+"+sess.points+" XP"+(complete?" (inkl. 20 Bonus)":"");
+  $("sumHS").hidden=!newHS;
+  $("sumLvl").textContent="Level "+L.lvl+" · "+L.title+" · noch "+(L.need-L.into)+" XP bis zur Beförderung · Serie: "+curStreak()+(curStreak()===1?" Tag":" Tage");
+  let msg, m;
+  if(!vals.length){msg="Pause ist okay. Ich warte hier auf dich."; m="idle";}
+  else if(newHS){msg="Neuer Highscore! Das feiern wir mit einem Leckerli."; m="cheer";}
+  else if(q>=.9){msg="Spitzenleistung! So sieht eine starke Bilanz aus."; m="cheer";}
+  else if(q>=.6){msg="Gute Runde! Die Zahlen können sich sehen lassen."; m="happy";}
+  else {msg="Dranbleiben – beim nächsten Mal wird's besser. Ich glaub an dich!"; m="think";}
+  $("bubbleSum").innerHTML="<b>Waldi:</b> "+esc(msg); $("dogSum").dataset.mood=m;
+}
+
+/* ---------- home ---------- */
+function scopeEntries(){const s=new Set(state.settings.scope); return ENTRIES.filter(e=>s.has(e.sec.id));}
+function renderHome(){
+  const t=today(), pool=scopeEntries();
+  let due=0,nw=0,kn=0;
+  pool.forEach(e=>{const c=getCard(e.id); if(!c) nw++; else {if(c.d<=t) due++; if(c.i>=7) kn++;}});
+  $("stDue").textContent=due; $("stNew").textContent=nw; $("stKnown").textContent=kn;
+  renderPlayer(due); renderTestTiles();
+  $("scopeLabel").textContent=state.settings.scope.length+" von "+SECTIONS.length+" Lektionen · "+pool.length+" Wörter";
+  document.querySelectorAll(".seg").forEach(seg=>{const k=seg.dataset.key; seg.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(String(state.settings[k])===b.dataset.v)));});
+  const startable=due+nw>0;
+  $("startBtn").disabled=!pool.length||!startable;
+  $("freeBtn").disabled=!pool.length;
+  $("startNote").textContent=!pool.length?"Wähle unten mindestens eine Lektion aus.":
+    !startable?"Für heute ist alles wiederholt. Mit „Freies Üben“ kannst du trotzdem weiterlernen.":
+    "Zuerst kommen die fälligen Wörter, danach neue.";
+  const host=$("lessons"); host.innerHTML="";
+  LESSONS.forEach(L=>{
+    const ch=document.createElement("div"); ch.className="chapter";
+    ch.innerHTML='<div class="chapter-h"><span class="eyebrow">Kapitel '+L.no+'</span><h2>'+esc(L.name)+'</h2></div>';
+    L.sections.forEach(S=>{
+      let k=0,l=0; S.entries.forEach(e=>{const s=status(e.id); if(s==="k")k++; else if(s==="l")l++;});
+      const n=S.entries.length, nn=n-k-l;
+      const row=document.createElement("div"); row.className="secrow";
+      const checked=state.settings.scope.includes(S.id);
+      row.innerHTML='<input type="checkbox" id="sc-'+S.id+'" '+(checked?"checked":"")+' aria-label="'+esc(S.name)+' abfragen">'+
+        '<div class="secinfo"><label class="name" for="sc-'+S.id+'"><span class="mono">'+L.no+S.key+'</span>'+esc(S.name)+'</label>'+
+        '<div class="bar" aria-hidden="true"><span class="k" style="width:'+(k/n*100)+'%"></span><span class="l" style="width:'+(l/n*100)+'%"></span></div>'+
+        '<span class="counts">'+n+' Wörter · '+k+' sicher · '+l+' am Lernen · '+nn+' neu</span></div>'+
+        '<button class="btn" data-list="'+S.id+'" style="min-height:36px;padding:6px 12px">Liste</button>';
+      row.querySelector("input").addEventListener("change",ev=>{
+        const set=new Set(state.settings.scope); ev.target.checked?set.add(S.id):set.delete(S.id);
+        state.settings.scope=SECTIONS.map(s=>s.id).filter(id=>set.has(id)); touch(); renderHome();
+      });
+      row.querySelector("[data-list]").addEventListener("click",()=>openList(S));
+      ch.appendChild(row);
+    });
+    host.appendChild(ch);
+  });
+}
+document.querySelectorAll(".seg").forEach(seg=>seg.addEventListener("click",ev=>{
+  const b=ev.target.closest("button"); if(!b) return; const k=seg.dataset.key;
+  state.settings[k]=k==="size"?+b.dataset.v:b.dataset.v; touch(); renderHome();
+}));
+function restoreReset(){$("resetArea").innerHTML='<button class="btn ghost" id="resetBtn" style="min-height:0;padding:4px 0">Fortschritt zurücksetzen</button>'; bindReset();}
+function bindReset(){ $("resetBtn").onclick=()=>{ const a=$("resetArea");
+  a.innerHTML='<span class="confirm">Gesamten Lernstand löschen? <button class="btn" id="rsYes" style="min-height:32px;padding:4px 10px;border-color:var(--bad);color:var(--bad)">Ja, löschen</button><button class="btn ghost" id="rsNo" style="min-height:32px;padding:4px 10px">Abbrechen</button></span>';
+  $("rsYes").onclick=()=>{state.cards={}; state.game=normGame(); touch(); restoreReset(); renderHome();};
+  $("rsNo").onclick=restoreReset; }; }
+
+/* ---------- list ---------- */
+function openList(S){
+  $("listEyebrow").textContent="Kapitel "+S.lesson.no+" · "+S.lesson.name;
+  $("listTitle").textContent=S.key+" – "+S.name;
+  $("listBody").innerHTML=S.entries.map(e=>{
+    const s=status(e.id);
+    return '<div class="entry"><button aria-expanded="false"><span class="dot '+s+'" title="'+(s==="k"?"sicher":s==="l"?"am Lernen":"neu")+'"></span><span class="num mono muted">'+e.num+'</span><span class="en">'+esc(e.en)+(e.idiom?' <span class="pill">idiom</span>':'')+'</span><span class="de">'+esc(e.de)+'</span></button><div class="exs" hidden>'+e.ex.map(exHTML).join("")+'</div></div>';
+  }).join("");
+  $("listBody").querySelectorAll(".entry > button").forEach(b=>b.addEventListener("click",()=>{const x=b.nextElementSibling; x.hidden=!x.hidden; b.setAttribute("aria-expanded",String(!x.hidden));}));
+  show("list");
+}
+$("listBack").onclick=()=>{renderHome(); show("home");};
+
+/* ---------- session ---------- */
+let sess=null;
+function makeItem(e,forceMode){
+  const st=state.settings; const isNew=!getCard(e.id);
+  let mode=forceMode||(st.mode==="mix"?(isNew?"flash":["flash","type","cloze"][Math.floor(Math.random()*3)]):st.mode);
+  let dir=st.dir==="mix"?(Math.random()<.5?"en-de":"de-en"):st.dir;
+  return {id:e.id,mode,dir,exIdx:Math.floor(Math.random()*e.ex.length),reps:0};
+}
+function startSession(free){
+  const t=today(), pool=scopeEntries(), size=state.settings.size;
+  let picks;
+  if(!free){
+    const due=shuffle(pool.filter(e=>{const c=getCard(e.id);return c&&c.d<=t;}));
+    const fresh=pool.filter(e=>!getCard(e.id));
+    picks=due.concat(fresh).slice(0,size);
+  } else {
+    const w=e=>{const c=getCard(e.id); return !c?1:c.i<7?0:2;};
+    picks=shuffle(pool).sort((a,b)=>w(a)-w(b)).slice(0,size);
+  }
+  if(!picks.length) return;
+  sess={free,queue:shuffle(picks).map(e=>makeItem(e)),pos:0,first:{},total:picks.length,done:0,points:0,combo:0,bestCombo:0};
+  resetStrip();
+  show("session"); renderItem();
+}
+$("startBtn").onclick=()=>startSession(false);
+$("freeBtn").onclick=()=>startSession(true);
+$("quitBtn").onclick=()=>finish();
+
+function updateProgress(){
+  $("prog").style.width=(sess.done/sess.total*100)+"%";
+  $("progTxt").textContent=sess.done+" / "+sess.total;
+}
+function promptBlock(e,dir){
+  if(dir==="en-de"){
+    const hint=e.opt.en?'<span class="hint">('+esc(e.opt.en)+')</span>':"";
+    return '<div class="prompt-wrap"><div class="row"><span class="prompt">'+esc(e.en)+'</span>'+spkBtn(e.en)+'</div>'+hint+'</div>';
+  }
+  const hint=e.opt.de?'<span class="hint">('+esc(e.opt.de)+')</span>':"";
+  return '<div class="prompt-wrap"><span class="prompt">'+esc(e.de)+'</span>'+hint+'</div>';
+}
+function metaBlock(e,it){
+  const isNew=!getCard(e.id);
+  const label={flash:"Karteikarte",type:"Eintippen",cloze:"Lückentext"}[it.mode];
+  const d=it.mode==="cloze"?"":" · "+(it.dir==="en-de"?"EN → DE":"DE → EN");
+  return '<div class="meta"><span class="eyebrow">'+label+d+'</span><span class="row">'+(e.idiom?'<span class="pill">idiom</span>':'')+(isNew?'<span class="pill new">neu</span>':'')+'<span class="pill">'+ref(e)+'</span></span></div>';
+}
+function solutionText(e,dir){return dir==="en-de"?e.de:e.en;}
+function renderItem(){
+  updateProgress();
+  const it=sess.queue[sess.pos]; const e=BYID[it.id]; const host=$("cardHost");
+  sess.phase="ask"; sess.result=null;
+  if(it.mode==="flash"){
+    host.innerHTML='<article class="card">'+metaBlock(e,it)+promptBlock(e,it.dir)+
+      '<div id="back" hidden></div>'+
+      '<div id="ctl"><button class="btn primary" id="reveal" style="width:100%">Aufdecken <span class="kbd">Leertaste</span></button></div></article>';
+    $("reveal").onclick=revealFlash; $("reveal").focus();
+  } else if(it.mode==="type"){
+    host.innerHTML='<article class="card">'+metaBlock(e,it)+promptBlock(e,it.dir)+
+      '<span class="ask">'+(it.dir==="en-de"?"Deutsche Bedeutung eintippen":"Englisches Wort eintippen")+'</span>'+
+      '<form class="typer" id="typer" autocomplete="off"><input id="ans" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Deine Antwort"><button class="btn primary" type="submit">Prüfen</button></form>'+
+      '<div id="back" hidden></div><div id="ctl"></div></article>';
+    $("typer").onsubmit=ev=>{ev.preventDefault(); if(sess.phase==="ask") submitTyped();};
+    $("ans").focus();
+  } else {
+    const ex=e.ex[it.exIdx]; const w=Math.max(4,ex.ans.length);
+    const s=esc(ex.en).replace(/\[\[(.+?)\]\]/,'<span class="blank" style="width:'+w+'ch">'+"_".repeat(w)+'</span>');
+    host.innerHTML='<article class="card">'+metaBlock(e,it)+
+      '<div class="cloze">'+s+'</div><div class="hint">'+esc(ex.de)+'</div>'+
+      '<div class="row"><button class="btn ghost" id="tip" style="min-height:0;padding:2px 0">Tipp: Bedeutung zeigen</button><span class="hint" id="tipTxt" hidden>'+esc(e.de)+' · beginnt mit „'+esc(ex.ans[0])+'“</span></div>'+
+      '<form class="typer" id="typer" autocomplete="off"><input id="ans" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Fehlendes Wort"><button class="btn primary" type="submit">Prüfen</button></form>'+
+      '<div id="back" hidden></div><div id="ctl"></div></article>';
+    $("tip").onclick=()=>{$("tipTxt").hidden=false; $("tip").hidden=true;};
+    $("typer").onsubmit=ev=>{ev.preventDefault(); if(sess.phase==="ask") submitCloze();};
+    $("ans").focus();
+  }
+}
+function revealFlash(){
+  const it=sess.queue[sess.pos]; const e=BYID[it.id];
+  sess.phase="grade";
+  const sol=solutionText(e,it.dir);
+  $("back").hidden=false;
+  $("back").innerHTML='<div class="answer"><div class="row"><span class="solution">'+esc(sol)+'</span>'+(it.dir==="de-en"?spkBtn(e.en):"")+'</div>'+e.ex.map(x=>'<div class="row" style="align-items:flex-start;flex-wrap:nowrap">'+exHTML(x)+spkBtn(plain(x.en))+'</div>').join("")+'</div>';
+  $("ctl").innerHTML='<div class="grades two">'+
+    '<button class="btn g1" data-g="1"><span>Nicht gewusst</span><small>Taste 1 · kommt gleich wieder</small></button>'+
+    '<button class="btn g3" data-g="3"><span>Gewusst</span><small>Taste 2 · wieder in '+ivlText(3,e.id)+'</small></button></div>';
+  $("ctl").querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>grade(+b.dataset.g, b.dataset.g==="3"?"correct":"wrong"));
+  $("ctl").querySelector('[data-g="3"]').focus();
+}
+function feedback(res,e,it,extra){
+  sess.phase="feedback"; sess.result=res;
+  dogReact(res.res,res.res==="correct"?sess.combo+1:0);
+  $("ans").disabled=true; $("typer").querySelector("button").disabled=true;
+  const sol=it.mode==="cloze"?e.ex[it.exIdx].ans:solutionText(e,it.dir);
+  const titles={correct:"Richtig",almost:"Fast richtig",wrong:"Leider falsch",also:"Auch eine passende Vokabel"};
+  let msg="";
+  if(res.res==="correct") msg=it.mode!=="cloze"&&it.dir==="en-de"?"Alle Bedeutungen: "+esc(e.de):"";
+  if(res.res==="almost") msg=res.form?"Richtiges Wort, aber hier passt die Form <b>"+esc(sol)+"</b>.":"Richtige Schreibweise: <b>"+esc(sol)+"</b>";
+  if(res.res==="wrong") msg="Richtig wäre: <b>"+esc(sol)+"</b>";
+  if(res.res==="also") msg="„"+esc(it.dir==="en-de"?res.other.de:res.other.en)+"“ passt auch – gesucht war aber <b>"+esc(sol)+"</b>. Die Karte kommt gleich noch einmal.";
+  $("back").hidden=false;
+  const exs=it.mode==="cloze"?[e.ex[it.exIdx]].concat(e.ex.filter((_,i)=>i!==it.exIdx)):e.ex;
+  const stamps={correct:"GEBUCHT",almost:"NACHBESSERN",wrong:"STORNIERT",also:"UMBUCHEN"};
+  $("back").innerHTML='<div class="fb '+res.res+'"><div class="fb-h"><b>'+titles[res.res]+'</b><span class="stamp">'+stamps[res.res]+'</span></div>'+(msg?'<span>'+msg+'</span>':'')+'</div>'+
+    '<div class="answer" style="border-top:0;padding-top:0">'+(it.mode==="cloze"?'<div class="row"><span class="solution">'+esc(e.en)+'</span><span class="muted">'+esc(e.de)+'</span></div>':"")+
+    exs.map(x=>'<div class="row" style="align-items:flex-start;flex-wrap:nowrap">'+exHTML(x)+spkBtn(plain(x.en))+'</div>').join("")+'</div>';
+  const canOverride=res.res==="wrong"||res.res==="almost";
+  $("ctl").innerHTML='<div class="actions"><button class="btn primary" id="next">Weiter <span class="kbd">Enter</span></button>'+(canOverride?'<button class="btn ghost" id="override">Ich lag richtig</button>':'')+'</div>';
+  $("next").onclick=()=>{
+    if(res.res==="also"){ requeue(it,true); advance(); return; }
+    grade({correct:3,almost:2,wrong:1}[res.res],res.res);
+  };
+  if(canOverride) $("override").onclick=()=>grade(3,"correct");
+  setTimeout(()=>{const n=$("next"); if(n) n.focus();},0);
+}
+function submitTyped(){const it=sess.queue[sess.pos]; const e=BYID[it.id]; feedback(checkTyped(e,it.dir,$("ans").value),e,it);}
+function submitCloze(){const it=sess.queue[sess.pos]; const e=BYID[it.id]; feedback(checkCloze(e,e.ex[it.exIdx],$("ans").value),e,it);}
+function requeue(it,keepCount){
+  if(it.reps>=2) return;
+  const copy={...it,reps:it.reps+1,exIdx:(it.exIdx+1)%BYID[it.id].ex.length};
+  if(state.settings.mode==="mix"&&copy.mode==="flash") copy.mode="type";
+  const at=Math.min(sess.queue.length,sess.pos+4);
+  sess.queue.splice(at,0,copy);
+  sess.total++;
+}
+function grade(g,res){
+  const it=sess.queue[sess.pos]; const t=today(); const c=getCard(it.id);
+  if(!(it.id in sess.first)) sess.first[it.id]=res;
+  const applies=!sess.free||!c||c.d<=t||g===1;
+  if(applies) putCard(it.id,schedule(c,g,t));
+  let pts=0;
+  if(res==="correct"){ sess.combo++; pts=10+Math.min(10,(sess.combo-1)*2)+(g===4?2:0); }
+  else if(res==="almost"){ sess.combo=0; pts=5; }
+  else sess.combo=0;
+  if(it.reps>0) pts=Math.ceil(pts/2);
+  sess.bestCombo=Math.max(sess.bestCombo,sess.combo);
+  addXP(pts); updateStrip(pts);
+  if(it.mode==="flash") dogReact(res,sess.combo);
+  touch();
+  if(g===1) requeue(it);
+  advance();
+}
+function advance(){
+  sess.done++; sess.pos++;
+  if(sess.pos>=sess.queue.length){finish();return;}
+  renderItem();
+}
+function finish(){
+  if(!sess){renderHome();show("home");return;}
+  const vals=Object.values(sess.first);
+  const c=vals.filter(v=>v==="correct").length, a=vals.filter(v=>v==="almost").length, w=vals.filter(v=>v==="wrong").length;
+  $("sumC").textContent=c; $("sumA").textContent=a; $("sumW").textContent=w;
+  const quote=vals.length?Math.round(c/vals.length*100):0;
+  $("sumTitle").textContent=vals.length?(c===vals.length?"Trefferquote 100 % – alles auf Anhieb gewusst!":"Trefferquote "+quote+" % · "+c+" von "+vals.length+" beim ersten Versuch richtig"):"Runde abgebrochen – nichts verbucht.";
+  const miss=Object.keys(sess.first).filter(id=>sess.first[id]!=="correct"&&sess.first[id]!=="also");
+  $("sumListWrap").hidden=!miss.length;
+  $("sumList").innerHTML=miss.map(id=>{const e=BYID[id]; return '<li><span>'+esc(e.en)+'</span><span class="muted">'+esc(e.de)+'</span></li>';}).join("");
+  gameFinish(vals,c);
+  sess=null;
+  if(remotePending){const d=remotePending; remotePending=null; if((d.updatedAt||0)>state.updatedAt) adopt(d);}
+  show("summary"); $("againBtn").focus();
+}
+$("againBtn").onclick=()=>{renderHome(); const t=today(); const any=scopeEntries().some(e=>{const c=getCard(e.id);return !c||c.d<=t;}); startSession(!any);};
+$("homeBtn").onclick=()=>{renderHome(); show("home");};
+
+document.addEventListener("keydown",ev=>{
+  if(!sess||$("session").hidden) return;
+  if(ev.target.tagName==="INPUT"&&sess.phase==="ask") return;
+  if(sess.phase==="ask"&&$("reveal")&&(ev.key===" "||ev.key==="Enter")){ev.preventDefault(); revealFlash(); return;}
+  if(sess.phase==="grade"&&(ev.key==="1"||ev.key==="2")){ev.preventDefault(); if(ev.key==="1") grade(1,"wrong"); else grade(3,"correct"); return;}
+  if(sess.phase==="feedback"&&ev.key==="Enter"&&ev.target.id!=="override"){ev.preventDefault(); $("next").click();}
+});
+
+/* ---------- final tests ---------- */
+const GAP_RE=/\[\[(.+?)\|(\w+)\]\]/g;
+const TESTS=(function(txt){
+  const out=[]; let T=null;
+  txt.split("\n").forEach(r=>{const l=r.trim(); if(!l) return;
+    if(l.startsWith("@T ")){const p=l.slice(3).split(" | "); T={id:p[0],title:p[1],paras:[],gaps:[]}; out.push(T);}
+    else {T.paras.push(l); l.replace(GAP_RE,(m,s,id)=>{T.gaps.push({ans:s,id}); return m;});}
+  });
+  return out;
+})(document.getElementById("tests").textContent);
+let test=null;
+function fmtScore(x){return String(x).replace(".",",");}
+function renderTestTiles(){
+  $("testTiles").innerHTML=TESTS.map(T=>{
+    const S=SECTIONS.find(s=>s.id===T.id), r=state.game.tests[T.id];
+    const res=r?'<span class="res done">Bestwert '+fmtScore(r.best)+' / '+r.n+'</span>':'<span class="res">'+T.gaps.length+' Lücken · noch offen</span>';
+    return '<button class="ttile" data-test="'+T.id+'"><span class="code">'+T.id+' · '+esc(S?S.name:"")+'</span><b>'+esc(T.title)+'</b>'+res+'</button>';
+  }).join("");
+  $("testTiles").querySelectorAll("[data-test]").forEach(b=>b.onclick=()=>openTest(TESTS.find(T=>T.id===b.dataset.test)));
+}
+function testFilled(){let n=0; test.T.gaps.forEach((g,i)=>{if($("g"+i).value.trim()) n++;}); $("tFilled").textContent=n; $("tFilledOf").textContent="von "+test.T.gaps.length+" Lücken";}
+function openTest(T){
+  test={T,tips:new Set(),done:false};
+  const S=SECTIONS.find(s=>s.id===T.id);
+  $("testEyebrow").textContent="Abschlusstest · "+T.id+" "+(S?S.name:"");
+  $("testTitle").textContent=T.title;
+  let k=0;
+  $("testBody").innerHTML=T.paras.map(p=>'<p>'+esc(p).replace(GAP_RE,(m,s)=>{const i=k++;
+    return '<span class="gap"><input id="g'+i+'" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Lücke '+(i+1)+'" style="width:'+Math.min(26,Math.max(7,s.length+3))+'ch"><button class="tipbtn" type="button" data-tip="'+i+'" aria-label="Tipp für Lücke '+(i+1)+'" title="Deutsche Bedeutung zeigen">?</button></span>';})+'</p>').join("");
+  $("testBody").querySelectorAll("[data-tip]").forEach(b=>b.onclick=()=>{
+    const i=+b.dataset.tip, inp=$("g"+i); inp.placeholder=BYID[T.gaps[i].id].de.split(/[,;(]/)[0].trim(); inp.classList.add("tipped");
+    test.tips.add(i); b.hidden=true; inp.focus();
+  });
+  T.gaps.forEach((g,i)=>{const inp=$("g"+i);
+    inp.addEventListener("input",testFilled);
+    inp.addEventListener("keydown",ev=>{if(ev.key==="Enter"){ev.preventDefault(); const nx=$("g"+(i+1)); if(nx) nx.focus(); else $("evalBtn").focus();}});
+  });
+  $("testResult").hidden=true;
+  $("testActions").innerHTML='<button class="btn primary" id="evalBtn">Auswerten</button><button class="btn ghost" id="testCancel">Abbrechen</button>';
+  $("evalBtn").onclick=evalTest; $("testCancel").onclick=closeTest;
+  $("dogT").dataset.mood="think";
+  say("bubbleT","Jetzt wird's ernst: ein ganzer Artikel mit "+T.gaps.length+" Lücken. Lies erst mal alles durch – der Zusammenhang hilft!");
+  testFilled(); show("test");
+}
+function closeTest(){test=null; renderHome(); show("home");}
+function evalTest(){
+  if(!test||test.done) return; test.done=true;
+  const T=test.T, t=today(); let ok=0,al=0,xp=0;
+  T.gaps.forEach((g,i)=>{
+    const inp=$("g"+i), wrap=inp.parentElement, e=BYID[g.id], tip=test.tips.has(i);
+    const r=checkCloze(e,{ans:g.ans},inp.value);
+    inp.disabled=true; wrap.querySelector(".tipbtn").hidden=true;
+    if(r.res==="correct"){ok++; xp+=tip?8:15; wrap.classList.add("ok");}
+    else if(r.res==="almost"){al++; xp+=tip?4:7; wrap.classList.add("almost"); wrap.insertAdjacentHTML("beforeend",'<span class="fix">→ '+esc(g.ans)+'</span>');}
+    else {wrap.classList.add("bad"); wrap.insertAdjacentHTML("beforeend",'<span class="fix">'+esc(g.ans)+'</span>'); const c=getCard(e.id); if(c){c.d=t; putCard(e.id,c);}}
+  });
+  const n=T.gaps.length, score=ok+al*.5, q=score/n, bonus=q>=.8?30:0; xp+=bonus;
+  addXP(xp);
+  const prev=state.game.tests[T.id], newBest=!prev||score>prev.best;
+  if(newBest) state.game.tests[T.id]={best:score,n};
+  touch();
+  $("testResult").hidden=false;
+  $("testResult").innerHTML='<span class="big">'+ok+' von '+n+' richtig'+(al?' · '+al+' fast':'')+'</span>'+
+    '<div class="row"><span class="xpgain">+'+xp+' XP</span>'+(bonus?'<span class="muted" style="font-size:.85rem">inkl. 30 Bonus für über 80 %</span>':'')+(newBest&&prev?'<span class="badge-hs">Neuer Bestwert!</span>':'')+'</div>'+
+    '<span class="muted" style="font-size:.85rem">Grün = richtig, Orange = fast richtig (richtige Form daneben), Rot = falsch (Lösung daneben). Falsche Wörter, die du schon gelernt hast, kommen in deiner nächsten Runde wieder dran.</span>';
+  $("testActions").innerHTML='<button class="btn primary" id="retryBtn">Nochmal versuchen</button><button class="btn" id="testHome">Zur Übersicht</button>';
+  $("retryBtn").onclick=()=>openTest(T); $("testHome").onclick=closeTest;
+  let msg,m;
+  if(q>=.9){msg="Prüfung mit Auszeichnung bestanden! Das ist Vorstandsniveau."; m="cheer";}
+  else if(q>=.6){msg="Solide Leistung! Schau dir die roten Lücken noch mal an – dann knackst du die 90 %."; m="happy";}
+  else {msg="Das war ein harter Brocken. Lern die Wörter in ein paar Runden und versuch's dann noch mal – ich warte hier."; m="sad";}
+  $("dogT").dataset.mood=m; say("bubbleT",msg);
+  $("testResult").scrollIntoView({behavior:"smooth",block:"center"});
+}
+$("testBack").onclick=closeTest;
+
+/* ---------- boot ---------- */
+bindReset();
+renderHome();
+initSync();
+(async()=>{
+  let t=null;
+  try{if(window.claude&&window.claude.use) t=await window.claude.use("tts");}catch(e){}
+  if(!t&&window.speechSynthesis&&window.SpeechSynthesisUtterance){
+    t={speak:text=>new Promise(res=>{const u=new SpeechSynthesisUtterance(text); u.lang="en-GB"; u.rate=.95; u.onend=()=>res(); u.onerror=()=>res(); speechSynthesis.cancel(); speechSynthesis.speak(u);})};
+  }
+  if(t){tts=t; if(!$("home").hidden) renderHome();}
+})();
+/* backup (only outside Claude, where progress lives in this browser only) */
+if(!window.claude){
+  $("backupArea").hidden=false;
+  $("bkSave").onclick=()=>{
+    try{const blob=new Blob([JSON.stringify(state)],{type:"application/json"}); const a=document.createElement("a");
+      a.href=URL.createObjectURL(blob); a.download="vokabeltrainer-sicherung-"+new Date().toISOString().slice(0,10)+".json";
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),2000);}catch(e){}
+  };
+  $("bkLoad").onclick=()=>$("bkFile").click();
+  $("bkFile").onchange=ev=>{const f=ev.target.files[0]; if(!f) return; const r=new FileReader();
+    r.onload=()=>{try{const d=JSON.parse(r.result); if(!d||!d.cards) throw 0; adopt({...d,updatedAt:Date.now()}); renderHome(); $("bkMsg").textContent="Sicherung geladen.";}
+      catch(e){$("bkMsg").textContent="Diese Datei ist keine gültige Sicherung.";} ev.target.value="";};
+    r.readAsText(f);};
+}
+})();
+</script>
+
+</body>
+</html>
